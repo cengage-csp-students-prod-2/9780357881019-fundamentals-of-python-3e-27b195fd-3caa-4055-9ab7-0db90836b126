@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Program outputs 12.0 when user inputs 2 and 6
 Reason: 12.0 was found in the program's output.None
-Timestamp: 2025-01-08 01:08:14.280990
+Timestamp: 2025-01-08 01:08:40.228457
 
 Status: PASSED!
 Check: 2
 Test: Program outputs 6174.0 when user inputs 98 and 63
 Reason: 6174.0 was found in the program's output.None
-Timestamp: 2025-01-08 01:08:14.297086
+Timestamp: 2025-01-08 01:08:40.244101
