@@ -1,0 +1,54 @@
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
+    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
+                                                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+Timestamp: 2025-01-08 01:18:05.986207
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
+    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
+                                                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+Timestamp: 2025-01-08 01:18:05.986366
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
+    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
+                                                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+Timestamp: 2025-01-08 01:18:06.079553
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
+    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
+                                                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+Timestamp: 2025-01-08 01:18:06.079626
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
+    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
+                                                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+Timestamp: 2025-01-08 01:18:06.152454
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
+    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
+                                                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+Timestamp: 2025-01-08 01:18:06.152541
