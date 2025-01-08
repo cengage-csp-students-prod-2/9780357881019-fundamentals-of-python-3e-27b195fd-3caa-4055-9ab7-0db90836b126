@@ -1,1 +1,1 @@
-print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n'))*0.5}")
+print(f"Triangle area is {float(input('Input height'))*float(input('Input base'))*0.5}")
