@@ -1,0 +1,30 @@
+
+Status: FAILED!
+Check: 1
+Test: Print your name.
+Reason: Unable to find '['Your Name']' in the program's output.
+My name is Alejandro, I live in Miami, my work phone is 7862644768
+.
+Error : AssertionError - 
+Timestamp: 2025-01-08 00:59:15.251411
+
+Status: PASSED!
+Check: 2
+Test: Print your address.
+Reason: An address was found in the program's output.None
+Timestamp: 2025-01-08 00:59:15.266689
+
+Status: PASSED!
+Check: 3
+Test: Print your phone number.
+Reason: A phone number was found in the program's output.None
+Timestamp: 2025-01-08 00:59:15.282136
+
+Status: FAILED!
+Check: 4
+Test: There are three lines of output
+Reason: Unable to find '['Three lines of output']' in the program's output.
+My name is Alejandro, I live in Miami, my work phone is 7862644768
+.
+Error : AssertionError - 
+Timestamp: 2025-01-08 00:59:15.297261
