@@ -1,0 +1,27 @@
+
+Status: FAILED!
+Check: 1
+Test: Program outputs '3.14 square units' when user inputs 1
+Reason: Unable to find '['3.14 square units']' in the program's output.
+Input radius Circle area is 9.8596 square units
+.
+Error : AssertionError - Unable to find 3.14 square units in the program's output.
+Timestamp: 2025-01-08 01:30:16.770103
+
+Status: FAILED!
+Check: 2
+Test: Program outputs '28.26 square units' when user inputs 3
+Reason: Unable to find '['28.26']' in the program's output.
+Input radius Circle area is 88.7364 square units
+.
+Error : AssertionError - Unable to find a number close enough to 28.26 (+/-0.01) in the program's output.
+Timestamp: 2025-01-08 01:30:16.786622
+
+Status: FAILED!
+Check: 3
+Test: Program outputs '1.76 square units' when user inputs 0.75
+Reason: Unable to find '['1.76']' in the program's output.
+Input radius Circle area is 5.546025 square units
+.
+Error : AssertionError - Unable to find a number close enough to 1.76 (+/-0.01) in the program's output.
+Timestamp: 2025-01-08 01:30:16.802320
