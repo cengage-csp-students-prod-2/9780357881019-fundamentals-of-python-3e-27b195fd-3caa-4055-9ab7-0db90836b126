@@ -1,1 +1,1 @@
-print("My name is Alejandro, I live in Miami, my work phone is 7862644768")
+print("Alejandro\nMiami\n7862644768")
