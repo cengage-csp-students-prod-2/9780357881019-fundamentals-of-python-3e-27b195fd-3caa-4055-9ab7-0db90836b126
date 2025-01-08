@@ -1,54 +1,54 @@
 
 Status: FAILED!
 Reason: Unable to run triangle.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
-    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
-                                                                                               ^
-SyntaxError: f-string expression part cannot include a backslash
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1, in <module>
+    print(f"Triangle area is {float(input('Input height'))*float(input('Input base')*0.5)}")
+TypeError: can't multiply sequence by non-int of type 'float'
 
-Timestamp: 2025-01-08 01:18:05.986207
-
-Status: FAILED!
-Reason: Unable to run triangle.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
-    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
-                                                                                               ^
-SyntaxError: f-string expression part cannot include a backslash
-
-Timestamp: 2025-01-08 01:18:05.986366
+Timestamp: 2025-01-08 01:19:11.282745
 
 Status: FAILED!
 Reason: Unable to run triangle.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
-    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
-                                                                                               ^
-SyntaxError: f-string expression part cannot include a backslash
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1, in <module>
+    print(f"Triangle area is {float(input('Input height'))*float(input('Input base')*0.5)}")
+TypeError: can't multiply sequence by non-int of type 'float'
 
-Timestamp: 2025-01-08 01:18:06.079553
-
-Status: FAILED!
-Reason: Unable to run triangle.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
-    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
-                                                                                               ^
-SyntaxError: f-string expression part cannot include a backslash
-
-Timestamp: 2025-01-08 01:18:06.079626
+Timestamp: 2025-01-08 01:19:11.282887
 
 Status: FAILED!
 Reason: Unable to run triangle.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
-    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
-                                                                                               ^
-SyntaxError: f-string expression part cannot include a backslash
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1, in <module>
+    print(f"Triangle area is {float(input('Input height'))*float(input('Input base')*0.5)}")
+TypeError: can't multiply sequence by non-int of type 'float'
 
-Timestamp: 2025-01-08 01:18:06.152454
+Timestamp: 2025-01-08 01:19:11.362109
 
 Status: FAILED!
 Reason: Unable to run triangle.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1
-    print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
-                                                                                               ^
-SyntaxError: f-string expression part cannot include a backslash
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1, in <module>
+    print(f"Triangle area is {float(input('Input height'))*float(input('Input base')*0.5)}")
+TypeError: can't multiply sequence by non-int of type 'float'
 
-Timestamp: 2025-01-08 01:18:06.152541
+Timestamp: 2025-01-08 01:19:11.362204
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1, in <module>
+    print(f"Triangle area is {float(input('Input height'))*float(input('Input base')*0.5)}")
+TypeError: can't multiply sequence by non-int of type 'float'
+
+Timestamp: 2025-01-08 01:19:11.477230
+
+Status: FAILED!
+Reason: Unable to run triangle.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter1/ex03/triangle.py", line 1, in <module>
+    print(f"Triangle area is {float(input('Input height'))*float(input('Input base')*0.5)}")
+TypeError: can't multiply sequence by non-int of type 'float'
+
+Timestamp: 2025-01-08 01:19:11.477358
