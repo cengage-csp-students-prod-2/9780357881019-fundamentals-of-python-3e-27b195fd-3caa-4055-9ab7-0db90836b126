@@ -1,0 +1,30 @@
+{
+  "name": "MindTap",
+  "docker": {
+    "image": "mcr.microsoft.com/devcontainers/universal:linux"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["cengage.cengage-companion"]
+    }
+  },
+  "settings": {
+        "extensions.ignoreRecommendations": true,
+        "extensions.showRecommendationsOnlyOnDemand": true,
+        "git.openRepositoryInParentFolders": false
+  },
+  "forwardPorts": [3005, 6080],
+  "portsAttributes": {
+    "3005": {
+      "label": "cengage-companion",
+      "onAutoForward": "silent"
+    },
+    "6080": {
+      "label": "desktop"
+    }
+  },
+  "postCreateCommand": "pip install matplotlib pandas"
+}
