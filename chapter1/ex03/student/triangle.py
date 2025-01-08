@@ -1,1 +1,1 @@
-# Write your code here
+print(f"Triangle area is {float(input('Input height\n'))*float(input('Input base\n')*0.5)}")
