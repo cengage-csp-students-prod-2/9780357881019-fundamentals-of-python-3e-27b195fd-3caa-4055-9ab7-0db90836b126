@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: The program displays the correct tax and total.
+Reason: The program displayed the correct totals.None
+Timestamp: 2025-01-20 17:57:25.836381
+
+Status: PASSED!
+Check: 2
+Test: The program displays the correct total.
+Reason: The program displayed the correct totalsNone
+Timestamp: 2025-01-20 17:57:25.863031
