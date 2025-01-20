@@ -1,24 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Outputs 47304000000000000 when input is 5
-Reason: Unable to find '['47304000000000000']' in the program's output.
-Tell me the number of yearsThe are 4.7304e+16 meters in 5.0 light years
-.
-Error : AssertionError - Unable to find a number close enough to 47304000000000000 (+/-0.00) in the program's output.
-Timestamp: 2025-01-20 17:24:05.473168
+Reason: Output included 47304000000000000None
+Timestamp: 2025-01-20 17:30:22.128154
 
 Status: PASSED!
 Check: 2
 Test: Outputs 9460800000000000 when input is 1
 Reason: Output included 9460800000000000None
-Timestamp: 2025-01-20 17:24:05.490195
+Timestamp: 2025-01-20 17:30:22.146894
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Outputs 293284800000000000 when input is 31
-Reason: Unable to find '['293284800000000000']' in the program's output.
-Tell me the number of yearsThe are 2.932848e+17 meters in 31.0 light years
-.
-Error : AssertionError - Unable to find a number close enough to 293284800000000000 (+/-0.00) in the program's output.
-Timestamp: 2025-01-20 17:24:05.506840
+Reason: Output included 293284800000000000None
+Timestamp: 2025-01-20 17:30:22.164743
