@@ -1,18 +1,48 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Outputs correct values when input is 3
-Reason: Unable to find '['6.0']' in the program's output.
-Tell me the radius of the sphereThe volume is 113.09733552923255
-.
-Error : AssertionError - 
-Timestamp: 2025-01-20 16:05:47.704989
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.247457
 
-Status: FAILED!
+Status: PASSED!
+Check: 2
+Test: Outputs correct values when input is 3
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.267084
+
+Status: PASSED!
+Check: 3
+Test: Outputs correct values when input is 3
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.285734
+
+Status: PASSED!
+Check: 4
+Test: Outputs correct values when input is 3
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.303709
+
+Status: PASSED!
 Check: 5
 Test: Outputs correct values when input is 67
-Reason: Unable to find '['134.0']' in the program's output.
-Tell me the radius of the sphereThe volume is 1259833.1083621692
-.
-Error : AssertionError - 
-Timestamp: 2025-01-20 16:05:47.729005
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.321949
+
+Status: PASSED!
+Check: 6
+Test: Outputs correct values when input is 67
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.340763
+
+Status: PASSED!
+Check: 7
+Test: Outputs correct values when input is 67
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.359729
+
+Status: PASSED!
+Check: 8
+Test: Outputs correct values when input is 67
+Reason: Output included correct valuesNone
+Timestamp: 2025-01-20 16:08:40.387886
