@@ -1,0 +1,21 @@
+
+Status: PASSED!
+Check: 1
+Test: Outputs 2628000 when input is 5
+Reason: Output included 2628000None
+Timestamp: 2025-01-20 17:15:39.875250
+
+Status: PASSED!
+Check: 2
+Test: Outputs 525600 when input is 1
+Reason: Output included 525600None
+Timestamp: 2025-01-20 17:15:39.900099
+
+Status: FAILED!
+Check: 3
+Test: Outputs 16293600 when input is 31
+Reason: '0.0' should not be in the program's output.
+Tell me the number of yearsThe are 16293600.0 minutes in 31.0 years
+
+Error : AssertionError - Found '0.0' in the program's output.
+Timestamp: 2025-01-20 17:15:39.926913
