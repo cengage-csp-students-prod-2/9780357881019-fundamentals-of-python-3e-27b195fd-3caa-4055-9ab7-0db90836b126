@@ -1,27 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Outputs '294 square units' when input is 7
-Reason: Unable to find '['294 square units']' in the program's output.
-Tell me the length of the edge of the cubeThe surface of the cube is 294.0
-.
-Error : AssertionError - 
-Timestamp: 2025-01-20 15:36:30.828804
+Reason: Output included '294 square units'None
+Timestamp: 2025-01-20 15:37:16.976084
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Outputs '54 square units' when input is 3
-Reason: Unable to find '['54 square units']' in the program's output.
-Tell me the length of the edge of the cubeThe surface of the cube is 54.0
-.
-Error : AssertionError - 
-Timestamp: 2025-01-20 15:36:30.845818
+Reason: Output included '54 square units'None
+Timestamp: 2025-01-20 15:37:16.993573
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Outputs '0 square units' when input is 0
-Reason: Unable to find '['0 square units']' in the program's output.
-Tell me the length of the edge of the cubeThe surface of the cube is 0.0
-.
-Error : AssertionError - Unable to find 0 square units in the program's output.
-Timestamp: 2025-01-20 15:36:30.862632
+Reason: Output included '0 square units'None
+Timestamp: 2025-01-20 15:37:17.013481
