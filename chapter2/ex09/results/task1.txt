@@ -3,22 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Outputs 2.7 when input is 5
 Reason: Output included 2.7None
-Timestamp: 2025-01-20 17:39:44.562287
+Timestamp: 2025-01-20 17:40:17.109530
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Outputs 0.54 when input is 1
-Reason: Unable to find '['0.54']' in the program's output.
-Tell me the number of kilometers1.0 kms is 0.5 nautical miles
-.
-Error : AssertionError - Unable to find a number close enough to 0.54 (+/-0.00) in the program's output.
-Timestamp: 2025-01-20 17:39:44.579223
+Reason: Output included 0.54None
+Timestamp: 2025-01-20 17:40:17.127448
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Outputs 16.74 when input is 31
-Reason: Unable to find '['16.74']' in the program's output.
-Tell me the number of kilometers31.0 kms is 16.7 nautical miles
-.
-Error : AssertionError - Unable to find a number close enough to 16.74 (+/-0.00) in the program's output.
-Timestamp: 2025-01-20 17:39:44.605203
+Reason: Output included 16.74None
+Timestamp: 2025-01-20 17:40:17.144741
