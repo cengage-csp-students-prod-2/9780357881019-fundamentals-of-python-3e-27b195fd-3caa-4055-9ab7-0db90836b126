@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Program outputs 'is not a right triangle' when user inputs 44, 44, and 44
 Reason: 'is not a right triangle' was found in the program's output.None
-Timestamp: 2025-01-28 23:30:08.291905
+Timestamp: 2025-01-28 23:30:30.461924
 
 Status: PASSED!
 Check: 2
 Test: Program outputs 'is a right triangle' when user inputs 3, 4, and 5
 Reason: 'is a right triangle' was found in the program's output.None
-Timestamp: 2025-01-28 23:30:08.310230
+Timestamp: 2025-01-28 23:30:30.478970
