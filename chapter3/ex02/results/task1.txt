@@ -1,12 +1,40 @@
 
-Status: PASSED!
-Check: 1
-Test: Program outputs 'is not a right triangle' when user inputs 44, 44, and 44
-Reason: 'is not a right triangle' was found in the program's output.None
-Timestamp: 2025-01-28 23:30:30.461924
+Status: FAILED!
+Reason: Unable to run right.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex02/right.py", line 7, in <module>
+    print("The triangle is a right triangle." if sides[0]**2+sides[1]**2==sides[2]**2 else "The triangle is not a right triangle.")
+                                                 ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
 
-Status: PASSED!
-Check: 2
-Test: Program outputs 'is a right triangle' when user inputs 3, 4, and 5
-Reason: 'is a right triangle' was found in the program's output.None
-Timestamp: 2025-01-28 23:30:30.478970
+Timestamp: 2025-01-28 23:32:10.343153
+
+Status: FAILED!
+Reason: Unable to run right.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex02/right.py", line 7, in <module>
+    print("The triangle is a right triangle." if sides[0]**2+sides[1]**2==sides[2]**2 else "The triangle is not a right triangle.")
+                                                 ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+Timestamp: 2025-01-28 23:32:10.343238
+
+Status: FAILED!
+Reason: Unable to run right.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex02/right.py", line 7, in <module>
+    print("The triangle is a right triangle." if sides[0]**2+sides[1]**2==sides[2]**2 else "The triangle is not a right triangle.")
+                                                 ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+Timestamp: 2025-01-28 23:32:10.452561
+
+Status: FAILED!
+Reason: Unable to run right.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex02/right.py", line 7, in <module>
+    print("The triangle is a right triangle." if sides[0]**2+sides[1]**2==sides[2]**2 else "The triangle is not a right triangle.")
+                                                 ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+Timestamp: 2025-01-28 23:32:10.452623
