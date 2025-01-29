@@ -1,0 +1,54 @@
+
+Status: FAILED!
+Reason: Unable to run leibniz.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
+    it=int(input(tell me the number of iterations))
+                 ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Timestamp: 2025-01-29 00:38:24.409729
+
+Status: FAILED!
+Reason: Unable to run leibniz.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
+    it=int(input(tell me the number of iterations))
+                 ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Timestamp: 2025-01-29 00:38:24.409865
+
+Status: FAILED!
+Reason: Unable to run leibniz.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
+    it=int(input(tell me the number of iterations))
+                 ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Timestamp: 2025-01-29 00:38:24.519444
+
+Status: FAILED!
+Reason: Unable to run leibniz.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
+    it=int(input(tell me the number of iterations))
+                 ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Timestamp: 2025-01-29 00:38:24.519519
+
+Status: FAILED!
+Reason: Unable to run leibniz.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
+    it=int(input(tell me the number of iterations))
+                 ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Timestamp: 2025-01-29 00:38:24.622792
+
+Status: FAILED!
+Reason: Unable to run leibniz.py
+Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
+    it=int(input(tell me the number of iterations))
+                 ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Timestamp: 2025-01-29 00:38:24.622870
