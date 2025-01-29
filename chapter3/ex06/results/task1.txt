@@ -1,27 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Program outputs '4.0' when user inputs 1
-Reason: Unable to find '['4.0']' in the program's output.
-tell me the number of iterations The approximation of pi is 1.3333333333333333
-.
-Error : AssertionError - Unable to find a number close enough to 4.0 (+/-0.01) in the program's output.
-Timestamp: 2025-01-29 00:39:44.479189
+Reason: '4.0' was found in the program's output.None
+Timestamp: 2025-01-29 00:42:27.612452
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Program outputs '3.46' when user inputs 3
-Reason: Unable to find '['3.46']' in the program's output.
-tell me the number of iterations The approximation of pi is 0.5714285714285714
-.
-Error : AssertionError - Unable to find a number close enough to 3.46 (+/-0.01) in the program's output.
-Timestamp: 2025-01-29 00:39:44.496016
+Reason: '3.46' was found in the program's output.None
+Timestamp: 2025-01-29 00:42:27.629791
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Program outputs '3.04183' when user inputs 10
-Reason: Unable to find '['3.04183']' in the program's output.
-tell me the number of iterations The approximation of pi is 0.0
-.
-Error : AssertionError - Unable to find a number close enough to 3.04183 (+/-0.01) in the program's output.
-Timestamp: 2025-01-29 00:39:44.513097
+Reason: '3.04183' was found in the program's output.None
+Timestamp: 2025-01-29 00:42:27.646625
