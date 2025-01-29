@@ -1,54 +1,27 @@
 
 Status: FAILED!
-Reason: Unable to run leibniz.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
-    it=int(input(tell me the number of iterations))
-                 ^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-Timestamp: 2025-01-29 00:38:24.409729
-
-Status: FAILED!
-Reason: Unable to run leibniz.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
-    it=int(input(tell me the number of iterations))
-                 ^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-Timestamp: 2025-01-29 00:38:24.409865
+Check: 1
+Test: Program outputs '4.0' when user inputs 1
+Reason: Unable to find '['4.0']' in the program's output.
+tell me the number of iterations The approximation of pi is 1.3333333333333333
+.
+Error : AssertionError - Unable to find a number close enough to 4.0 (+/-0.01) in the program's output.
+Timestamp: 2025-01-29 00:39:06.937506
 
 Status: FAILED!
-Reason: Unable to run leibniz.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
-    it=int(input(tell me the number of iterations))
-                 ^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-Timestamp: 2025-01-29 00:38:24.519444
-
-Status: FAILED!
-Reason: Unable to run leibniz.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
-    it=int(input(tell me the number of iterations))
-                 ^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-Timestamp: 2025-01-29 00:38:24.519519
+Check: 2
+Test: Program outputs '3.46' when user inputs 3
+Reason: Unable to find '['3.46']' in the program's output.
+tell me the number of iterations The approximation of pi is 0.5714285714285714
+.
+Error : AssertionError - Unable to find a number close enough to 3.46 (+/-0.01) in the program's output.
+Timestamp: 2025-01-29 00:39:06.954465
 
 Status: FAILED!
-Reason: Unable to run leibniz.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
-    it=int(input(tell me the number of iterations))
-                 ^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-Timestamp: 2025-01-29 00:38:24.622792
-
-Status: FAILED!
-Reason: Unable to run leibniz.py
-Error:   File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter3/ex06/leibniz.py", line 2
-    it=int(input(tell me the number of iterations))
-                 ^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-Timestamp: 2025-01-29 00:38:24.622870
+Check: 3
+Test: Program outputs '3.04183' when user inputs 10
+Reason: Unable to find '['3.04183']' in the program's output.
+tell me the number of iterations The approximation of pi is 0.0
+.
+Error : AssertionError - Unable to find a number close enough to 3.04183 (+/-0.01) in the program's output.
+Timestamp: 2025-01-29 00:39:06.971570
