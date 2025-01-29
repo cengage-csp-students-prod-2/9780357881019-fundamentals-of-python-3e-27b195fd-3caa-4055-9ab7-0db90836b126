@@ -1,5 +1,5 @@
 # Write your program here
-it=int(input(tell me the number of iterations))
+it=int(input('tell me the number of iterations '))
 p=0
 sign=1
 for i in range(it):
