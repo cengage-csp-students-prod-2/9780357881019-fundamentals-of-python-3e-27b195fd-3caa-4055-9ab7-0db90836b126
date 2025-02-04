@@ -1,18 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Program outputs correct values when user inputs encrypted text and distance of 2
-Reason: Unable to find '['abcdef']' in the program's output.
-Tell me the lineTell me the stepefghij
-.
-Error : AssertionError - Unable to find abcdef in the program's output.
-Timestamp: 2025-02-04 23:06:41.550912
+Reason: 'abcdef' was found in the program's output.None
+Timestamp: 2025-02-04 23:07:27.953360
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Program outputs correct values when user inputs encrypted text and distance of 5
-Reason: Unable to find '['Encrypted text.']' in the program's output.
-Tell me the lineTell me the stepOxm|z~on*~o~8
-.
-Error : AssertionError - Unable to find Encrypted text. in the program's output.
-Timestamp: 2025-02-04 23:06:41.567418
+Reason: 'Encrypted text.' was found in the program's output.None
+Timestamp: 2025-02-04 23:07:27.970050
