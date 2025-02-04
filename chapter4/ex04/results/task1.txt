@@ -1,36 +1,12 @@
 
-Status: FAILED!
-Reason: Unable to run octaltodecimal.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex04/octaltodecimal.py", line 7, in <module>
-    n+=inf.pop()*m
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+Status: PASSED!
+Check: 1
+Test: Program outputs 20 when user inputs 24
+Reason: 20 was found in the program's output.None
+Timestamp: 2025-02-04 23:29:30.147411
 
-Timestamp: 2025-02-04 23:27:14.673986
-
-Status: FAILED!
-Reason: Unable to run octaltodecimal.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex04/octaltodecimal.py", line 7, in <module>
-    n+=inf.pop()*m
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
-
-Timestamp: 2025-02-04 23:27:14.674085
-
-Status: FAILED!
-Reason: Unable to run octaltodecimal.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex04/octaltodecimal.py", line 7, in <module>
-    n+=inf.pop()*m
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
-
-Timestamp: 2025-02-04 23:27:14.774117
-
-Status: FAILED!
-Reason: Unable to run octaltodecimal.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex04/octaltodecimal.py", line 7, in <module>
-    n+=inf.pop()*m
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
-
-Timestamp: 2025-02-04 23:27:14.774188
+Status: PASSED!
+Check: 2
+Test: Program outputs 192 when user inputs 300
+Reason: 192 was found in the program's output.None
+Timestamp: 2025-02-04 23:29:30.164936
