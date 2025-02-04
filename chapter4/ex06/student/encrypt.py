@@ -1,4 +1,5 @@
 # Write your program here
 l=input('gggg')
-d=[str(format((ord(c)+1)<<1,'b')) for c in l]
+d=[format((ord(c)+1),'b') for c in l]
+d=[c[1:]+c[0] for c in d]
 print(' '.join(d))
