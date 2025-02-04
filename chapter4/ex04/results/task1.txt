@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Program outputs 20 when user inputs 24
 Reason: 20 was found in the program's output.None
-Timestamp: 2025-02-04 23:29:30.147411
+Timestamp: 2025-02-04 23:29:50.271887
 
 Status: PASSED!
 Check: 2
 Test: Program outputs 192 when user inputs 300
 Reason: 192 was found in the program's output.None
-Timestamp: 2025-02-04 23:29:30.164936
+Timestamp: 2025-02-04 23:29:50.289316
