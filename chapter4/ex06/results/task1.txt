@@ -1,40 +1,18 @@
 
 Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
-    print(' '.join(l))
-          ^^^^^^^^^^^
-TypeError: sequence item 0: expected str instance, int found
-
-Timestamp: 2025-02-04 23:39:04.463303
-
-Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
-    print(' '.join(l))
-          ^^^^^^^^^^^
-TypeError: sequence item 0: expected str instance, int found
-
-Timestamp: 2025-02-04 23:39:04.463420
+Check: 1
+Test: Program outputs correct values when user inputs 'hello'
+Reason: Unable to find '['1010011 1001101 1011011 1011011 1100001']' in the program's output.
+gggg11010010 11001100 11011010 11011010 11100000
+.
+Error : AssertionError - Unable to find 1010011 1001101 1011011 1011011 1100001 in the program's output.
+Timestamp: 2025-02-04 23:40:23.581185
 
 Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
-    print(' '.join(l))
-          ^^^^^^^^^^^
-TypeError: sequence item 0: expected str instance, int found
-
-Timestamp: 2025-02-04 23:39:04.565705
-
-Status: FAILED!
-Reason: Unable to run encrypt.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
-    print(' '.join(l))
-          ^^^^^^^^^^^
-TypeError: sequence item 0: expected str instance, int found
-
-Timestamp: 2025-02-04 23:39:04.565768
+Check: 2
+Test: Program outputs correct values when user inputs 'goodbye'
+Reason: Unable to find '['1010001 1100001 1100001 1001011 1000111 1110101 1001101']' in the program's output.
+gggg11010000 11100000 11100000 11001010 11000110 11110100 11001100
+.
+Error : AssertionError - Unable to find 1010001 1100001 1100001 1001011 1000111 1110101 1001101 in the program's output.
+Timestamp: 2025-02-04 23:40:23.597598
