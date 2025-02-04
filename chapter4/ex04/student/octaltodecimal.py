@@ -4,7 +4,7 @@ inf=list(inf)
 n=0
 m=1
 while inf:
-    n+=inf.pop()*m
+    n+=int(inf.pop())*m
     m*=8
 print(n)
 #outf=input("outputfile")
