@@ -1,18 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Program outputs correct values when user inputs 'hello'
-Reason: Unable to find '['1010011 1001101 1011011 1011011 1100001']' in the program's output.
-gggg11010010 11001100 11011010 11011010 11100000
-.
-Error : AssertionError - Unable to find 1010011 1001101 1011011 1011011 1100001 in the program's output.
-Timestamp: 2025-02-04 23:45:53.201444
+Reason: '1010011 1001101 1011011 1011011 1100001' was found in the program's output.None
+Timestamp: 2025-02-04 23:52:28.741025
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Program outputs correct values when user inputs 'goodbye'
-Reason: Unable to find '['1010001 1100001 1100001 1001011 1000111 1110101 1001101']' in the program's output.
-gggg11010000 11100000 11100000 11001010 11000110 11110100 11001100
-.
-Error : AssertionError - Unable to find 1010001 1100001 1100001 1001011 1000111 1110101 1001101 in the program's output.
-Timestamp: 2025-02-04 23:45:53.218477
+Reason: '1010001 1100001 1100001 1001011 1000111 1110101 1001101' was found in the program's output.None
+Timestamp: 2025-02-04 23:52:28.758166
