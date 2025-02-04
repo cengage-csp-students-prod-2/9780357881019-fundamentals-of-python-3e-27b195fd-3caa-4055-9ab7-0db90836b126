@@ -1,0 +1,40 @@
+
+Status: FAILED!
+Reason: Unable to run encrypt.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
+    print(' '.join(l))
+          ^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, int found
+
+Timestamp: 2025-02-04 23:39:04.463303
+
+Status: FAILED!
+Reason: Unable to run encrypt.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
+    print(' '.join(l))
+          ^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, int found
+
+Timestamp: 2025-02-04 23:39:04.463420
+
+Status: FAILED!
+Reason: Unable to run encrypt.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
+    print(' '.join(l))
+          ^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, int found
+
+Timestamp: 2025-02-04 23:39:04.565705
+
+Status: FAILED!
+Reason: Unable to run encrypt.py
+Error: Traceback (most recent call last):
+  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter4/ex06/encrypt.py", line 3, in <module>
+    print(' '.join(l))
+          ^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, int found
+
+Timestamp: 2025-02-04 23:39:04.565768
