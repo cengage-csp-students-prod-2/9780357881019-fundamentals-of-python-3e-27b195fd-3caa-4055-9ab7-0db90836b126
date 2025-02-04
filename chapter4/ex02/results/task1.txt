@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Program outputs correct values when user inputs encrypted text and distance of 2
 Reason: 'abcdef' was found in the program's output.None
-Timestamp: 2025-02-04 23:07:27.953360
+Timestamp: 2025-02-04 23:07:51.747839
 
 Status: PASSED!
 Check: 2
 Test: Program outputs correct values when user inputs encrypted text and distance of 5
 Reason: 'Encrypted text.' was found in the program's output.None
-Timestamp: 2025-02-04 23:07:27.970050
+Timestamp: 2025-02-04 23:07:51.766072
