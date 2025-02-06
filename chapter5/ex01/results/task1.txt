@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: The mean of [10,20] is 15
 Reason: None
-Timestamp: 2025-02-06 22:40:05.453122
+Timestamp: 2025-02-06 22:40:31.248270
 
 Status: PASSED!
 Check: 2
 Test: The mean of [44,23,77,23] is 23
 Reason: None
-Timestamp: 2025-02-06 22:40:05.453244
+Timestamp: 2025-02-06 22:40:31.248401
 
 Status: PASSED!
 Check: 3
 Test: mean of an empty list returns 0
 Reason: None
-Timestamp: 2025-02-06 22:40:05.453309
+Timestamp: 2025-02-06 22:40:31.248480
