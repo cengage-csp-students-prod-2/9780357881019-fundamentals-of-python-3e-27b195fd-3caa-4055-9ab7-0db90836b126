@@ -32,7 +32,16 @@ def prepositionalPhrase():
     """Builds and returns a prepositional phrase."""
     return random.choice(prepositions) + " " + nounPhrase()
 
-def main():
+def getWords (filename):
+    with open (filename,'r') as f:
+        l=f.read().split(' ')
+    return l
+def main(n,v,a,p):
+    articles=getWords(a)
+    nouns=getWords(n)
+    prepositions=getWords(p)
+    verbs=getWords(v)
+
     """Allows the user to input the number of sentences
     to generate."""
     number = int(input("Enter the number of sentences: "))
