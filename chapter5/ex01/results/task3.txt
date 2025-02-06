@@ -1,19 +1,21 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: The median of [1,50,1000] is 50
-Reason: None
-Timestamp: 2025-02-06 22:29:25.491612
+Test: 
+Reason: The method named 'median' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:34:34.033661
 
 Status: FAILED!
 Check: 2
-Test: The median of [44,23,77,23] is 33.5
-Reason: Expected 33.5
-Error : AssertionError - Assertion failed: Expected 33.5
-Timestamp: 2025-02-06 22:29:25.491696
+Test: 
+Reason: The method named 'median' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:34:34.033774
 
-Status: PASSED!
+Status: FAILED!
 Check: 3
-Test: median of an empty list returns 0
-Reason: None
-Timestamp: 2025-02-06 22:29:25.491753
+Test: 
+Reason: The method named 'median' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:34:34.033874

@@ -1,18 +1,21 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: The mode of [1,2,2,3] is 2
-Reason: None
-Timestamp: 2025-02-06 22:29:25.491421
+Reason: The method named 'mode' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:34:34.033363
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: The mode of [44,23,77,23] is 23
-Reason: None
-Timestamp: 2025-02-06 22:29:25.491503
+Test: 
+Reason: The method named 'mode' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:34:34.033480
 
-Status: PASSED!
+Status: FAILED!
 Check: 3
-Test: mode of an empty list returns 0
-Reason: None
-Timestamp: 2025-02-06 22:29:25.491556
+Test: 
+Reason: The method named 'mode' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:34:34.033568
