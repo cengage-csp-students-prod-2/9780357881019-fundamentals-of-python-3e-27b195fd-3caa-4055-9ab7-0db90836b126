@@ -11,5 +11,5 @@ def repToDecimal (rep,base):
         n+=DIGITS[l.pop()]*m
         m*=base
     return n
-def main(s):
-    print(repToDecimal(s))
+def main(s,b):
+    print(repToDecimal(s,b))
