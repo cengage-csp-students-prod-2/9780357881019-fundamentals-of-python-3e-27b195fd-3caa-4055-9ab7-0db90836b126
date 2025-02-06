@@ -1,0 +1,21 @@
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: The method named 'mean' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.894154
+
+Status: FAILED!
+Check: 2
+Test: 
+Reason: The method named 'mean' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.894465
+
+Status: FAILED!
+Check: 3
+Test: 
+Reason: The method named 'mean' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.894616

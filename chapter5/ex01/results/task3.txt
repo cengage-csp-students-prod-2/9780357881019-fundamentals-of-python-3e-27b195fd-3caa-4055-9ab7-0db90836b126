@@ -1,0 +1,21 @@
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: The method named 'median' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.895133
+
+Status: FAILED!
+Check: 2
+Test: 
+Reason: The method named 'median' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.895363
+
+Status: FAILED!
+Check: 3
+Test: 
+Reason: The method named 'median' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.895461

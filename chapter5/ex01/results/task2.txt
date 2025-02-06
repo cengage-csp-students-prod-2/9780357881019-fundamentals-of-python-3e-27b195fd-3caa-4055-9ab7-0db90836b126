@@ -1,0 +1,21 @@
+
+Status: FAILED!
+Check: 1
+Test: The mode of [1,2,2,3] is 2
+Reason: The method named 'mode' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.894714
+
+Status: FAILED!
+Check: 2
+Test: 
+Reason: The method named 'mode' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.894835
+
+Status: FAILED!
+Check: 3
+Test: 
+Reason: The method named 'mode' is not implemented
+Error : AssertionError - 
+Timestamp: 2025-02-06 22:18:55.895005
