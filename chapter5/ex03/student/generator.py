@@ -35,7 +35,7 @@ def prepositionalPhrase():
 def getWords (filename):
     with open (filename,'r') as f:
         l=f.read().split(' ')
-    return l
+    return tuple(l)
 def main(n,v,a,p):
     articles=getWords(a)
     nouns=getWords(n)
