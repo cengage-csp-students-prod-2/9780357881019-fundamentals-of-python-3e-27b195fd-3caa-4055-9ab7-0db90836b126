@@ -1,21 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: The method named 'mean' is not implemented
-Error : AssertionError - 
-Timestamp: 2025-02-06 22:34:34.032943
+Test: The mean of [10,20] is 15
+Reason: None
+Timestamp: 2025-02-06 22:38:06.073905
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: The method named 'mean' is not implemented
-Error : AssertionError - 
-Timestamp: 2025-02-06 22:34:34.033157
+Test: The mean of [44,23,77,23] is 23
+Reason: None
+Timestamp: 2025-02-06 22:38:06.074017
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: The method named 'mean' is not implemented
-Error : AssertionError - 
-Timestamp: 2025-02-06 22:34:34.033267
+Test: mean of an empty list returns 0
+Reason: None
+Timestamp: 2025-02-06 22:38:06.074079
