@@ -1,6 +1,12 @@
 # Write your program here
 def median(mlist:list):
-    return sorted(mlist)[len(mlist)//2] if mlist else 0
+    l=len(mlist)
+    if l=0: return 0
+    x= sorted(mlist)
+    if l%2:
+        return x[l//2]
+    else:
+        return (x[l//2]+x[l//2+1])/2
 def mean(mlist:list):
     return sum(mlist)/len(mlist) if mlist else 0
 def mode(mlist:list):
