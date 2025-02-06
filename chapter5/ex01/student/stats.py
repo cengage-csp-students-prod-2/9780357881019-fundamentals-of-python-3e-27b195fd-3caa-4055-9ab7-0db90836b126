@@ -6,7 +6,7 @@ def median(mlist:list):
     if l%2:
         return x[l//2]
     else:
-        return (x[l//2]+x[l//2+1])/2
+        return (x[l//2]+x[l//2-1])/2
 def mean(mlist:list):
     return sum(mlist)/len(mlist) if mlist else 0
 def mode(mlist:list):
