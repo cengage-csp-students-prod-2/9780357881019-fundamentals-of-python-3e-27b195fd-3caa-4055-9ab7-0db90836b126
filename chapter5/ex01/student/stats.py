@@ -1,8 +1,8 @@
 # Write your program here
 def median(mlist:list):
     l=len(mlist)
-    if l=0: return 0
-    x= sorted(mlist)
+    if l==0: return 0
+    x=sorted(mlist)
     if l%2:
         return x[l//2]
     else:
