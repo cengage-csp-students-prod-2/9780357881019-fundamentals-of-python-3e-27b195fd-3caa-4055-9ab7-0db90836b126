@@ -4,7 +4,7 @@ def median(mlist:list):
 def mean(mlist:list):
     return sum(mlist)/len(mlist) if mlist else 0
 def mode(mlist:list):
-    if not mlist return 0
+    if not mlist: return 0
     d={}
     maxn=0
     for n in mlist:
