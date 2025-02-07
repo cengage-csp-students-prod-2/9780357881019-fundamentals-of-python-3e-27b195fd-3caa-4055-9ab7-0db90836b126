@@ -1,4 +1,3 @@
-# Write your code here
 """
 File: recognizer.py
 
@@ -27,6 +26,8 @@ prepositions = ("WITH", "BY")
 
 conjunctions = ("AND", "OR")
 
+adjectives = ("BIG", "TALL","RED","BLUE")
+
 # sentence = nounphrase verbphrase
 def sentence(words):
     """Returns True if the words form
@@ -48,6 +49,7 @@ def nounPhrase(words):
     else:
         article = words.pop(0)
         noun = words.pop(0)
+        if noun in adjectives: noun = words.pop(0)
         return article in articles and noun in nouns
 
 # verbphrase = verb nounphrase prepositionalphrase
@@ -59,7 +61,7 @@ def verbPhrase(words):
     else:
         verb = words.pop(0)
         if not(verb in verbs and nounPhrase(words)): return False
-        elif words[0] in prepositions:
+        elif len(words)>0 and words[0] in prepositions:
             return prepositionalPhrase(words)
         else: return True
 
