@@ -12,6 +12,8 @@ def newton(x:float,estimate:float=1):
 
 x=1
 while x>0:
-    x=float(input("Enter a positive number or enter/return to quit: "))
+    x=input("Enter a positive number or enter/return to quit: ")
+    if x=="": break
+    x=float(x)
     if x<=0: break
     print("The program's estimate is ", newton(x))
