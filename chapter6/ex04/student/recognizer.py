@@ -48,6 +48,10 @@ def nounPhrase(words):
     else:
         article = words.pop(0)
         noun = words.pop(0)
+        if noun in adjectives:
+            if len(words) == 0:
+                return False
+            noun = words.pop(0)
         return article in articles and noun in nouns
 
 # verbphrase = verb nounphrase prepositionalphrase
@@ -59,7 +63,7 @@ def verbPhrase(words):
     else:
         for preposition in prepositions:
             if preposition in words:
-                return verbPhrase(words[:words.index(preposition)]) and prepositionalPhrase(words[words.index(preposition)+1:])
+                return verbPhrase(words[:words.index(preposition)]) and nounPhrase(words[words.index(preposition)+1:])
         verb = words.pop(0)
         return verb in verbs and nounPhrase(words)# and \
               # prepositionalPhrase(words)
