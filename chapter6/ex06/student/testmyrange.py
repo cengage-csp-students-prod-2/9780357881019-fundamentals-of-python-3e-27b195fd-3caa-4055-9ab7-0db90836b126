@@ -23,3 +23,5 @@ def main()
     print(myRange(1, 10))
     print(myRange(1, 10, 2))
     print(myRange(10, 1, -1))
+
+main()
