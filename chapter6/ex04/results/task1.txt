@@ -1,45 +1,18 @@
 
 Status: FAILED!
-Reason: Unable to run recognizer.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 91, in <module>
-    main()
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 85, in main
-    if sentence(words):
-       ^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 34, in sentence
-    if not(nounPhrase(words) and verbPhrase(words)): return False
-                                 ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 62, in verbPhrase
-    elif words[0] in prepositions:
-         ~~~~~^^^
-IndexError: list index out of range
-
-Timestamp: 2025-02-07 00:53:24.278873
-
-Status: FAILED!
-Reason: Unable to run recognizer.py
-Error: Traceback (most recent call last):
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 91, in <module>
-    main()
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 85, in main
-    if sentence(words):
-       ^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 34, in sentence
-    if not(nounPhrase(words) and verbPhrase(words)): return False
-                                 ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/9780357881019-fundamentals-of-python-3e-27b195fd-3caa-4055-9ab7-0db90836b126/python/chapter6/ex04/recognizer.py", line 62, in verbPhrase
-    elif words[0] in prepositions:
-         ~~~~~^^^
-IndexError: list index out of range
-
-Timestamp: 2025-02-07 00:53:24.278979
+Check: 1
+Test: The `verbPhrase` method returns `True` for a sentence without a prepositional phrase.
+Reason: Unable to find '['correct']' in the program's output.
+Enter a sentence or press return to quit: Not ok, grammatically incorrect
+Enter a sentence or press return to quit: .
+Error : AssertionError - 
+Timestamp: 2025-02-07 00:58:09.931477
 
 Status: PASSED!
 Check: 2
 Test: The `verbPhrase` method returns `False` for a sentence without a verb.
 Reason: None
-Timestamp: 2025-02-07 00:53:24.297297
+Timestamp: 2025-02-07 00:58:09.950107
 
 Status: FAILED!
 Check: 3
@@ -48,13 +21,13 @@ Reason: Unable to find '['correct']' in the program's output.
 Enter a sentence or press return to quit: Not ok, grammatically incorrect
 Enter a sentence or press return to quit: .
 Error : AssertionError - 
-Timestamp: 2025-02-07 00:53:24.314884
+Timestamp: 2025-02-07 00:58:09.968815
 
 Status: PASSED!
 Check: 4
 Test: The `nounPhrase` method returns `False` a sentence without a noun.
 Reason: None
-Timestamp: 2025-02-07 00:53:24.332531
+Timestamp: 2025-02-07 00:58:09.987144
 
 Status: FAILED!
 Check: 5
@@ -63,10 +36,10 @@ Reason: Unable to find '['correct']' in the program's output.
 Enter a sentence or press return to quit: Not ok, grammatically incorrect
 Enter a sentence or press return to quit: .
 Error : AssertionError - 
-Timestamp: 2025-02-07 00:53:24.349904
+Timestamp: 2025-02-07 00:58:10.006473
 
 Status: PASSED!
 Check: 6
 Test: The `sentence` method returns `False` when connecting two independent clauses with a conjunction.
 Reason: None
-Timestamp: 2025-02-07 00:53:24.367385
+Timestamp: 2025-02-07 00:58:10.026502
