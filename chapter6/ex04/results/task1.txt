@@ -6,13 +6,13 @@ Reason: Unable to find '['correct']' in the program's output.
 Enter a sentence or press return to quit: Not ok, grammatically incorrect
 Enter a sentence or press return to quit: .
 Error : AssertionError - 
-Timestamp: 2025-02-07 00:58:09.931477
+Timestamp: 2025-02-07 00:59:08.343889
 
 Status: PASSED!
 Check: 2
 Test: The `verbPhrase` method returns `False` for a sentence without a verb.
 Reason: None
-Timestamp: 2025-02-07 00:58:09.950107
+Timestamp: 2025-02-07 00:59:08.362345
 
 Status: FAILED!
 Check: 3
@@ -21,13 +21,13 @@ Reason: Unable to find '['correct']' in the program's output.
 Enter a sentence or press return to quit: Not ok, grammatically incorrect
 Enter a sentence or press return to quit: .
 Error : AssertionError - 
-Timestamp: 2025-02-07 00:58:09.968815
+Timestamp: 2025-02-07 00:59:08.380300
 
 Status: PASSED!
 Check: 4
 Test: The `nounPhrase` method returns `False` a sentence without a noun.
 Reason: None
-Timestamp: 2025-02-07 00:58:09.987144
+Timestamp: 2025-02-07 00:59:08.397766
 
 Status: FAILED!
 Check: 5
@@ -36,10 +36,10 @@ Reason: Unable to find '['correct']' in the program's output.
 Enter a sentence or press return to quit: Not ok, grammatically incorrect
 Enter a sentence or press return to quit: .
 Error : AssertionError - 
-Timestamp: 2025-02-07 00:58:10.006473
+Timestamp: 2025-02-07 00:59:08.415190
 
 Status: PASSED!
 Check: 6
 Test: The `sentence` method returns `False` when connecting two independent clauses with a conjunction.
 Reason: None
-Timestamp: 2025-02-07 00:58:10.026502
+Timestamp: 2025-02-07 00:59:08.432690
