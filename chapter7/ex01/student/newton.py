@@ -1,5 +1,5 @@
 # Write your code here
-TOLERANCE=0.01
+TOLERANCE=0.001
 def limitReached (x,appr):
     if abs(x-appr**2)<TOLERANCE: return True
     return False
