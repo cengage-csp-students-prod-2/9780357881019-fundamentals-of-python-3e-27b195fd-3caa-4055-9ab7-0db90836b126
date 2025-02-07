@@ -30,16 +30,15 @@ adjectives = ("BIG", "TALL","RED","BLUE")
 
 # sentence = nounphrase verbphrase
 def sentence(words):
+    if len(words) == 0:
+        return False
+    for conj in conjunctions:
+        if conj in words:
+            return sentence(words[:words.index(conj)]) and sentence(words[words.index(conj)+1:])
     """Returns True if the words form
     a sentence or False otherwise."""
-    if not(nounPhrase(words) and verbPhrase(words)): return False
-    elif len(words)==0: return  conjunction(words)
+    return nounPhrase(words) and verbPhrase(words)
 
-def conjunction(words):
-    """Returns True if the words start with
-    a conjunction or False otherwise."""
-    if len(words) == 0: return False
-    else: return words.pop(0) in conjunctions and sentence(words)
 # nounphrase = article noun
 def nounPhrase(words):
     """Returns True if the first two words
@@ -49,7 +48,6 @@ def nounPhrase(words):
     else:
         article = words.pop(0)
         noun = words.pop(0)
-        if noun in adjectives: noun = words.pop(0)
         return article in articles and noun in nouns
 
 # verbphrase = verb nounphrase prepositionalphrase
@@ -59,11 +57,12 @@ def verbPhrase(words):
     if len(words) == 0:
         return False
     else:
+        for preposition in prepositions:
+            if preposition in words:
+                return verbPhrase(words[:words.index(preposition)]) and prepositionalPhrase(words[words.index(preposition)+1:])
         verb = words.pop(0)
-        if not(verb in verbs and nounPhrase(words)): return False
-        elif len(words)>0 and words[0] in prepositions:
-            return prepositionalPhrase(words)
-        else: return True
+        return verb in verbs and nounPhrase(words)# and \
+              # prepositionalPhrase(words)
 
 # prepositionalphrase = preposition nounphrase
 def prepositionalPhrase(words):
