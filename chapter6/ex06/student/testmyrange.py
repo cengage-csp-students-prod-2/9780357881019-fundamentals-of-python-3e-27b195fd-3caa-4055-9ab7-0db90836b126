@@ -1,11 +1,11 @@
-# Write your code here
-def myRange(start:int,stop:int=None,step:int=None)
+def myRange(start:int,stop:int=None,step:int=None):
+    if step is None or step==0:
+        step=1
     if stop is None:
         if step<0 and start>0:
             stop=0
         start,stop=0,start
-    if step is None or step=0:
-        step=1
+
     l=[]
     pos=start
     if step>0:
@@ -18,7 +18,7 @@ def myRange(start:int,stop:int=None,step:int=None)
             pos+=step
     return l
 
-def main()
+def main():
     print(myRange(10))
     print(myRange(1, 10))
     print(myRange(1, 10, 2))
