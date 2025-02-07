@@ -17,3 +17,9 @@ def myRange(start:int,stop:int=None,step:int=None)
             l.append(pos)
             pos+=step
     return l
+
+def main()
+    print(myRange(10))
+    print(myRange(1, 10))
+    print(myRange(1, 10, 2))
+    print(myRange(10, 1, -1))
