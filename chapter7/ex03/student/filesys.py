@@ -11,7 +11,7 @@ MENU = """1   List the current directory
 5   Size of the directory in bytes
 6   Search for a file name
 7   Quit the program
-8   View current directory"""
+8   View a file in the current directory"""
 
 def main():
     while True:
@@ -58,12 +58,12 @@ def runCommand(command):
         print("Have a nice day!")
         exit()
     elif command == '8':
-        listCurrentDir(os.getcwd())
+        viewFile(os.getcwd())
 
 def listCurrentDir(dirName):
     """Prints a list of the cwd's contents."""
     lyst = os.listdir(dirName)
-    for element in lyst: print(element)
+    for element in lyst: print('  ' + element)
 
 def moveUp():
     """Moves up to the parent directory."""
@@ -121,10 +121,16 @@ def findFiles(target, path):
             os.chdir("..")
     return files
 
-def viewDir(dirName):
-    """Prints a list of the cwd's contents."""
-    lyst = os.listdir(dirName)
-    for element in lyst: print(element)
-
+def viewFile(path):
+    """Prints the contents of the named file."""
+    listCurrentDir(path)
+    filename=input(">>>> Enter the file name: ")
+    try:
+        with open(filename, "r") as f:
+            print(f.read())
+    except FileNotFoundError:
+        print("ERROR: no such file")
+    except PermissionError:
+        print("ERROR: no permission")
 if __name__ == "__main__":
     main()
