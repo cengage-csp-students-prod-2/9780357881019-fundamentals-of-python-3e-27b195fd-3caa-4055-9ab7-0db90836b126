@@ -6,4 +6,3 @@ def printAll(seq):
         print(seq)
         printAll(seq[1:])
 printAll(seq)
-print(seq)
