@@ -1,129 +1,141 @@
 """
-File: bank.py
-This module defines the Bank class.
+File: atm.py
+This module defines the ATM class, which provides a window
+for bank customers to perform deposits, withdrawals, and check
+balances.
 """
-import pickle
-import random
-from savingsaccount import SavingsAccount
+MAX_ATTEMPTS = 3
+from breezypythongui import EasyFrame
+from bank import Bank, createBank
 
-class Bank:
-    """This class represents a bank as a collection of savnings accounts.
-    An optional file name is also associated
-    with the bank, to allow transfer of accounts to and
-    from permanent file storage."""
+class ATM(EasyFrame):
+    """Represents an ATM window.
+    The window tracks the bank and the current account.
+    The current account is None at startup and logout.
+    """
 
-    # The state of the bank is a dictionary of accounts and
-    # a file name.  If the file name is None, a file name
-    # for the bank has not yet been established.
+    def __init__(self, bank):
+        """Initialize the frame and establish the data model."""
+        EasyFrame.__init__(self, title = "ATM")
+        # Create refernces to the data model.
+        self.bank = bank
+        self.account = None
+        self.attempts=MAX_ATTEMPTS
+        # Create and add the widgets to the window."""
+        self.nameLabel = self.addLabel(row = 0, column = 0,
+                                       text = "Name")
+        self.pinLabel = self.addLabel(row = 1, column = 0,
+                                      text = "PIN")
+        self.amountLabel = self.addLabel(row = 2, column = 0,
+                                         text = "Amount")
+        self.statusLabel = self.addLabel(row = 3, column = 0,
+                                         text = "Status")
+        self.nameField = self.addTextField(row = 0, column = 1,
+                                           text = "")
+        self.pinField = self.addTextField(row = 1, column = 1,
+                                          text = "")
+        self.amountField = self.addFloatField(row = 2, column = 1,
+                                              value = 0.0)
+        self.statusField = self.addTextField(row = 3, column = 1,
+                                             text = "Welcome to the Bank!",
+                                             state = "readonly")
+        self.balanceButton = self.addButton(row = 0, column = 2,
+                                            text = "Balance",
+                                            command = self.getBalance,
+                                            state = "disabled")
+        self.depositButton = self.addButton(row = 1, column = 2,
+                                            text = "Deposit",
+                                            command = self.deposit,
+                                            state = "disabled")
+        self.withdrawButton = self.addButton(row = 2, column = 2,
+                                             text = "Withdraw",
+                                             command = self.withdraw,
+                                             state = "disabled")
+        self.loginButton = self.addButton(row = 3, column = 2,
+                                          text = "Login",
+                                          command = self.login)
+        self.messageBox('Welcome to the Bank!', 'Please, enter your name and PIN.\nIf you fail 3 times, the police will be called.')
+ 
+    def login(self):
+        """Attempts to login the customer.  If successful,
+        enables the buttons, including logout."""
+        name = self.nameField.getText()
+        pin = self.pinField.getText()
+        self.account = self.bank.get(name, pin)
+        if self.account:
+            self.statusField.setText("Hello, " + name + "!")
+            self.balanceButton["state"] = "normal"
+            self.depositButton["state"] = "normal"
+            self.withdrawButton["state"] = "normal"
+            self.loginButton["text"] = "Logout"
+            self.loginButton["command"] = self.logout
+            self.attempts=MAX_ATTEMPTS
+        else:
+            self.attempts-=1
+            if self.attempts<=0:
+                self.setBackground("red")
+                self.statusField.setText("Too many attempts!")
+                self.messageBox("No more attempts", "The police is on the way, please, wait.")
+                self.loginButton["state"] = "disabled"
+                self.balanceButton["state"] = "disabled"
+                self.depositButton["state"] = "disabled"
+                self.withdrawButton["state"] = "disabled"
+            else:
+                self.statusField.setText("Name and pin not found!")
+                self.messageBox("Login Failed", f"{self.attempts} attempts left.\nIf you fail 3 times, the police will be called.")
 
-    def __init__(self, fileName = None):
-        """Creates a new dictionary to hold the accounts.
-        If a file name is provided, loads the accounts from
-        a file of pickled accounts."""
-        self.accounts = {}
-        self.fileName = fileName
-        if fileName != None:
-            fileObj = open(fileName, "rb")
-            while True:
-                try:
-                    account = pickle.load(fileObj)
-                    self.add(account)
-                except EOFError:
-                    fileObj.close()
-                    break
+    def logout(self):
+        """Logs the cusomer out, clears the fields, disables the
+        buttons, and enables login."""
+        self.account = None
+        self.nameField.setText("")
+        self.pinField.setText("")
+        self.amountField.setNumber(0.0)
+        self.statusField.setText("Welcome to the Bank!")
+        self.balanceButton["state"] = "disabled"
+        self.depositButton["state"] = "disabled"
+        self.withdrawButton["state"] = "disabled"
+        self.loginButton["text"] = "Login"
+        self.loginButton["command"] = self.login
 
-    def __str__(self):
-        """Returns the string representation of the bank."""
-        return "\n".join(map(str, self.accounts.values()))
+    def getBalance(self):
+        """Displays the current balance in the status field."""
+        text = "Balance = $" + str(self.account.getBalance())
+        self.statusField.setText(text)
 
-    def makeKey(self, name, pin):
-        """Makes and returns a key from name and pin."""
-        return name + "/" + pin
-
-    def add(self, account):
-        """Inserts an account with name and pin as a key."""
-        key = self.makeKey(account.getName(), account.getPin())
-        self.accounts[key] = account
-
-    def remove(self, name, pin):
-        """Removes the account from the bank and
-        and returns it, or None if the account does
-        not exist."""
-        key = self.makeKey(name, pin)
-        return self.accounts.pop(key, None)
-
-    def get(self, name, pin):
-        """Returns the account from the bank,
-        or returns None if the account does
-        not exist."""
-        key = self.makeKey(name, pin)
-        return self.accounts.get(key, None)
-
-    def computeInterest(self):
-        """Computes and returns the interest on
-        all accounts."""
-        total = 0
-        for account in self._accounts.values():
-            total += account.computeInterest()
-        return total
-
-    def getKeys(self):
-        """Returns a sorted list of keys."""
-        # Exercise
-        return []
-
-    def save(self, fileName = None):
-        """Saves pickled accounts to a file.  The parameter
-        allows the user to change file names."""
-        if fileName != None:
-            self.fileName = fileName
-        elif self.fileName == None:
-            return
-        fileObj = open(self.fileName, "wb")
-        for account in self.accounts.values():
-            pickle.dump(account, fileObj)
-        fileObj.close()
-
-# Functions for testing
-       
-def createBank(numAccounts = 1):
-    """Returns a new bank with the given number of 
-    accounts."""
-    names = ("Brandon", "Molly", "Elena", "Mark", "Tricia",
-             "Ken", "Jill", "Jack")
-    bank = Bank()
-    upperPin = numAccounts + 1000
-    for pinNumber in range(1000, upperPin):
-        name = random.choice(names)
-        balance = float(random.randint(100, 1000))
-        bank.add(SavingsAccount(name, str(pinNumber), balance))
-    return bank
-
-def testAccount():
-    """Test function for savings account."""
-    account = SavingsAccount("Ken", "1000", 500.00)
-    print(account)
-    print(account.deposit(100))
-    print("Expect 600:", account.getBalance())
-    print(account.deposit(-50))
-    print("Expect 600:", account.getBalance())
-    print(account.withdraw(100))
-    print("Expect 500:", account.getBalance())
-    print(account.withdraw(-50))
-    print("Expect 500:", account.getBalance())
-    print(account.withdraw(100000))
-    print("Expect 500:", account.getBalance())
-
-def main(number = 10, fileName = None):
-    """Creates and prints a bank, either from
-    the optional file name argument or from the optional
-    number."""
-    testAccount()
-    if fileName:
-        bank = Bank(fileName)
+    def deposit(self):
+        """Attempts a deposit. If not successful, displays
+        error message in statusfield; otherwise, announces
+        success."""
+        amount = self.amountField.getNumber()
+        message = self.account.deposit(amount)
+        if not message:
+            self.statusField.setText("Deposit successful")
+        else:
+           self.statusField.setText(message)
+        
+    def withdraw(self):
+        """Attempts a withdrawal. If not successful, displays
+        error message in statusfield; otherwise, announces
+        success."""
+        amount = self.amountField.getNumber()
+        message = self.account.withdraw(amount)
+        if not message:
+            self.statusField.setText("Withdrawal successful")
+        else:
+           self.statusField.setText(message)
+        
+def main(fileName = None):
+    """Creates the bank with the optional file name,
+    wraps the window around it, and opens the window.
+    Saves the bank when the window closes."""
+    if not fileName:
+        bank = createBank(5)
     else:
-        bank = createBank(number)
+        bank = Bank(fileName)
     print(bank)
+    atm = ATM(bank)
+    atm.mainloop()
 
 if __name__ == "__main__":
     main()
