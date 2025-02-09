@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: The `getNumberOfRolls` method should return the number of rolls the player has made.
 Reason: None
-Timestamp: 2025-02-09 05:04:21.440474
+Timestamp: 2025-02-09 05:04:53.388283
 
 Status: PASSED!
 Check: 2
 Test: The `getNumberOfRolls` method should return the number of rolls the player has made.
 Reason: None
-Timestamp: 2025-02-09 05:04:21.440608
+Timestamp: 2025-02-09 05:04:53.388418
