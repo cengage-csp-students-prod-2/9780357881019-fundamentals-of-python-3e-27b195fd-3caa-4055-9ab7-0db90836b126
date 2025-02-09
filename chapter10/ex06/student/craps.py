@@ -13,6 +13,30 @@ class Player(object):
         self.die1 = Die()
         self.die2 = Die()
         self.rolls = []
+        self.roll:str=None
+        self.rollsCount=0
+        self.atStartup=True
+        self.winner=False
+        self.loser=False
+    def isWinner(self):
+        return self.winner
+
+    def isLoser(self):
+        return self.loser
+    
+    def getNumberOfRolls(self):
+        return self.rolls
+    
+    def rollDice(self):
+        self.atStartup=False
+        self.rollsCount+=1
+
+        self.die1.roll()
+        self.die2.roll()
+        self.roll=f'{self.die1.getValue()}+{self.die2.getValue()}'
+        self.rolls.append(self.roll)
+        print(self.rolls)
+        return (self.die1.getValue(), self.die2.getValue())
 
     def __str__(self):
         """Returns a string representation of the list of rolls."""
@@ -29,38 +53,40 @@ class Player(object):
     def play(self):
         """Plays a game, saves the rolls for that game, 
         and returns True for a win and False for a loss."""
-        self.rolls = []
-        self.die1.roll()
-        self.die2.roll()
-        (v1, v2) = (self.die1.getValue(),
-                    self.die2.getValue())
-        self.rolls.append((v1, v2))
-        initialSum = v1 + v2
+        
+        input("Throw the dice...")
+        self.rolls=[]
+        self.rollDice()
+        initialSum = self.die1.getValue() + self.die2.getValue()
         if initialSum in (2, 3, 12):
-            return False
+            self.loser=True
+            #print("You lose!")
+            return
         elif initialSum in (7, 11):
-            return True
+            #print("You win!")
+            self.winner=True
+            return
         while (True):
-            self.die1.roll()
-            self.die2.roll()
-            (v1, v2) = (self.die1.getValue(),
-                        self.die2.getValue())
-            self.rolls.append((v1, v2))
-            laterSum = v1 + v2
+            input(f"You have {initialSum}. Throw the dice...")
+            self.rollDice()
+            laterSum = self.die1.getValue() + self.die2.getValue()
             if laterSum == 7:
-                return False
+                self.loser=True
+                #print("You lose!")
+                return
             elif laterSum == initialSum:
-                return True
+                #print("You win!")
+                self.winner=True
+                return
 
 def playOneGame():
     """Plays a single game and prints the results."""
     player = Player()
-    youWin = player.play()
     print(player)
-    if youWin:
-        print("You win!")
-    else:
+    if player.isLoser():
         print("You lose!")
+    elif player.isWinner():
+        print("You win!")
 
 def playManyGames(number):
     """Plays a number of games and prints statistics."""
@@ -68,9 +94,11 @@ def playManyGames(number):
     losses = 0
     winRolls = 0
     lossRolls = 0
+    if number < 1: return
     player = Player()
     for count in range(number):
         hasWon = player.play()
+        print(player.rolls)
         rolls = player.getNumberOfRolls()
         if hasWon:
             wins += 1
@@ -80,9 +108,9 @@ def playManyGames(number):
             lossRolls += rolls
     print("The total number of wins is", wins)
     print("The total number of losses is", losses)
-    print("The average number of rolls per win is %0.2f" % \
+    if wins>0: print("The average number of rolls per win is %0.2f" % \
           (winRolls / wins))
-    print("The average number of rolls per loss is %0.2f" % \
+    if losses>0: print("The average number of rolls per loss is %0.2f" % \
           (lossRolls / losses))
     print("The winning percentage is %0.3f" % (wins / number))
 
