@@ -14,8 +14,6 @@ on:
         description: "Timestamp of the workflow dispatch event to track runs"
         required: true
 
-# Issue: https://github.com/internal-CSP-HES-engineering/cengage-customUI/issues/2
-# Credit: https://stackoverflow.com/questions/69479400/get-run-id-after-triggering-a-github-workflow-dispatch-event
 jobs:
   run_id:
     runs-on: ubuntu-latest
@@ -33,7 +31,6 @@ jobs:
         env:
           SCORE_VARS_KEY: SCORE_${{ github.event.inputs.CHAPTER }}_${{ github.event.inputs.EXERCISE }}
           STATE_VARS_KEY: STATE_${{ github.event.inputs.CHAPTER }}_${{ github.event.inputs.EXERCISE }}
-        #https://github-middleware.dev.eks.cengage.io/api/score
         run: |
           commit_hash=$(git rev-parse HEAD) # Get the latest commit hash
           curl -X POST -H "Content-Type: application/json" \

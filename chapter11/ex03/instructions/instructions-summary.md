@@ -9,9 +9,17 @@ Add a command button named "Plot scores" to the user interface for the _Analyzin
     "CopyExercise": {
         "name": "11.2 program files",
         "copyTarget": "/chapter11/ex02/student/*",
-        "pasteTarget": "/*"
+        "pasteTarget": "/"
     }
 }
 -->
+
+## Sample GUI interface design
+<center>
+<img src="../assets/chapter11ex03-1.png" alt="GUI interface design" width="49%"/>
+</center>
+<center>
+<img src="../assets/chapter11ex03-2.png" alt="GUI scores graph design" width="49%"/>
+</center>
 
 ## Instructions

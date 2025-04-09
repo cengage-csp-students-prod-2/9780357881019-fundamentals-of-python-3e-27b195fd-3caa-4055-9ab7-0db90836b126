@@ -43,8 +43,9 @@ if __name__ == "__main__":
 When Jill runs the program, she enters her inputs and views the image before it’s saved. But when she closes the window and the program attempts to save the image, Python raises an error that the image has too many colors, as shown in **Figure 8-18**.
 
 <p align="center">
-    <img src="../assets/8.18a.png" width="49%" alt="Python program that creates and saves artwork with random colors. In the IDLE shell window, the random art dot p y program executes. The following prompts are displayed. Enter the image's width: 200. Enter the image's height: 100. Enter the image's file name: my art work dot g i f. Close the image window to quit. Some error messages are printed next. The output of this program is shown in a window that is full multi-colored dots.">
-    <img src="../assets/8.18b.png" width="49%">
+    <img src="../assets/8.18a.png" width="49%" alt="Python program that creates and saves artwork with random colors. In the IDLE shell window, the random art dot p y program executes. The following prompts are displayed. Enter the image's width: 200. Enter the image's height: 100. Enter the image's file name: my art work dot g i f. Close the image window to quit. Some error messages are printed next. The output of this program is shown in a window that is full multi-colored dots." />
+    <img src="../assets/8.18b.png" width="49%" alt="A computer window displaying a screen filled with random multicolored pixel noise, resembling static or digital distortion." />
+
 </p>
 
 <sup>_Figure 8-18_</sup>

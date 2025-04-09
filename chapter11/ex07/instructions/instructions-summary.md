@@ -13,5 +13,9 @@ This exercise assumes that you have completed _Programming Exercise 6_. Add radi
     }
 }
 -->
+<p align="center">
+    <img src="../assets/chapter11ex07-1.png" width="49%" alt="Data Window of the Analyzing Basketball Statistics Case Study">
+
+</p>
 
 ## Instructions

@@ -13,5 +13,7 @@ This exercise assumes that you have completed _Programming Exercise 1_. Complete
     }
 }
 -->
+## Sample GUI interface design
+<img src="../assets/chapter11ex02-1.png" alt="Student App GUI interface">
 
 ## Instructions
