@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Add a command button named "Plot scores" to the user interface for the _Analyzing Student Test Scores_ case study. When the user selects this button, the program displays a line plot of the student’s test scores. You should plot the positions along the x-axis and the scores along the y-axis. (LO: 11.2)
 
@@ -22,4 +22,4 @@ Add a command button named "Plot scores" to the user interface for the _Analyzin
 <img src="../assets/chapter11ex03-2.png" alt="GUI scores graph design" width="49%"/>
 </center>
 
-## Instructions
+## Your Tasks

@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 The `__str__` method of the `Bank` class (in **bank.py**) returns a string containing the accounts in random order. Design and implement a change that causes the accounts to be placed in the string in ascending order of name.
 
@@ -28,4 +28,4 @@ PIN:     1006
 Balance: 100.0
 ```
 
-## Instructions
+## Your Tasks

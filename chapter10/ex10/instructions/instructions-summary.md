@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Geometric shapes can be modeled as classes. Develop classes for line segments,
 circles, and rectangles in the **shapes.py** file. Each shape object should contain a `Turtle` object and a color that allow the shape to be drawn in a Turtle graphics window (see Chapter 8 for details).
@@ -14,4 +14,4 @@ Set the starting position (x-axis, y-axis) of the main window to **(0,0)** by us
 
 > Make sure to use the **turtle.done()** function as the last statement in your turtle graphics program.
 
-## Instructions
+## Your Tasks

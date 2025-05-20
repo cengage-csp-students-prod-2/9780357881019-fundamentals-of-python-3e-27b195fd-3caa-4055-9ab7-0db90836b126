@@ -1,6 +1,6 @@
 <!--manual-->
 
-## Your Tasks
+## Instructions
 
 Jill is developing an image processing program that creates artworks with random colors. The inputs to the program are the width and height of a new image, and the name of a file to which the image should be saved. Here is the code for Jillâ€™s program:
 
@@ -52,4 +52,4 @@ When Jill runs the program, she enters her inputs and views the image before itâ
 
 Determine why this error occurs and correct it. Jack reminds Jill that the GIF format supports at most 256 unique colors.
 
-## Instructions
+## Your Tasks

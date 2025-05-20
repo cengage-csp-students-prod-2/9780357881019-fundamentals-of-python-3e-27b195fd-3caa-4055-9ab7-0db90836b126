@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Write the tester program (in the file **readersandwriters.py**) for readers and writers of a shared `Counter` object. A sample run is shown in Figure 12-4. (LO: 12.1, 12.2)
 
@@ -9,4 +9,4 @@ Write the tester program (in the file **readersandwriters.py**) for readers and 
 </p>
  <sup>Figure 12-4</sup>
 
-## Instructions
+## Your Tasks

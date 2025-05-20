@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Teachers in most school districts are paid on a schedule that provides a salary based on their number of years of teaching experience.
 
@@ -6,4 +6,4 @@ For example, a beginning teacher in the Lexington School District might be paid 
 
 Write a program in the file **salary.py** that displays a salary schedule, in tabular format, for teachers in a school district. The inputs are the starting salary, the percentage increase, and the number of years in the schedule. Each row in the schedule should contain the year number and the salary for that year. (LO: 3.1, 3.2)
 
-## Instructions
+## Your Tasks

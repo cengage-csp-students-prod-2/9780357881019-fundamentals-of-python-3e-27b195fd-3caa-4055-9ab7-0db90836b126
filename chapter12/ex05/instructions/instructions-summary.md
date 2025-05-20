@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Design, implement, and test a network application that maintains an online phone book. The data model for the phone book (in the file **phonebook.py**) is saved in a file on the server’s computer.
 
@@ -16,4 +16,4 @@ Unlike the doctor program, there should be just one phone book that all clients 
 
 > The client code will now be able to establish a connection to the server.
 
-## Instructions
+## Your Tasks

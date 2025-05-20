@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Old-fashioned photographs from the nineteenth century are not quite black and white and not quite color, but seem to have shades of gray, brown, and blue. This effect is known as **sepia**, as shown in _Figure 8-17_. (LO: 8.2)
 
@@ -26,4 +26,4 @@ else:
     blue = int(blue * 0.93)
 ```
 
-## Instructions
+## Your Tasks

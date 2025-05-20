@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Write a GUI-based program in the file **taxformwithgui.py** that implements the tax calculator program shown in _Figure 9-2_. (LO: 9.2, 9.3, 9.4, 9.5)
 
@@ -10,4 +10,4 @@ Write a GUI-based program in the file **taxformwithgui.py** that implements the 
 </p>
  <sup>_Figure 9-2_</sup>
 
-## Instructions
+## Your Tasks

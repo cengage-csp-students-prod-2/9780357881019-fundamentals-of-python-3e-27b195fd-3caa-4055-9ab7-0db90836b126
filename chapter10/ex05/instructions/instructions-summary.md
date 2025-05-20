@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 The Doctor program described in Chapter 5 combines the data model of a doctor and the operations for handling user interaction. Restructure this program according to the model/view pattern so that these areas of responsibility are assigned to separate sets of classes.
 
@@ -10,4 +10,4 @@ The `reply` function returns a randomized string response and should be added as
 
 The rest of the program, in a separate `main` program module, handles the user’s interactions with the `Doctor` object. Develop this program with a terminal-based user interface (also in **doctor.py**). (LO: 10.1, 10.2)
 
-## Instructions
+## Your Tasks

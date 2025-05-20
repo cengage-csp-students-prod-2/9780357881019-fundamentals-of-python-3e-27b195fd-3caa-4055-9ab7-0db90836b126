@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Convert the DiceDemo program discussed in this chapter to a completed craps game gui application (**crapsgui.py**), using the `Player` data model class you developed in _Programming Exercise 6_ (**craps.py**).
 
@@ -25,4 +25,4 @@ A screen shot of a possible window is shown in Figure 10-7.
 }
 -->
 
-## Instructions
+## Your Tasks

@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 A local biologist needs a program to predict population growth. The inputs would be the initial number of organisms, the rate of growth (a real number greater than 0), the number of hours it takes to achieve this rate, and a number of hours during which the population grows.
 
@@ -6,4 +6,4 @@ For example, one might start with a population of 500 organisms, a growth rate o
 
 Write a program in the file **population.py** that takes these inputs and displays a prediction of the total population. (LO: 3.1)
 
-## Instructions
+## Your Tasks

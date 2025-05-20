@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 This exercise assumes that you have completed _Programming Exercise 1_. Complete the implementation of the `StudentView` class from the _Analyzing Student Test Scores_ case study. (LO: 11.1)
 
@@ -16,4 +16,4 @@ This exercise assumes that you have completed _Programming Exercise 1_. Complete
 ## Sample GUI interface design
 <img src="../assets/chapter11ex02-1.png" alt="Student App GUI interface">
 
-## Instructions
+## Your Tasks

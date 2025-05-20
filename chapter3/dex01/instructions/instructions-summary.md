@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Jack has written a program that computes and prints the average of 10 test scores. The program prompts the user for each input score. Here is the code for this program:
 
@@ -14,4 +14,4 @@ print("The average test score is", average)
 
 This program contains errors. Determine what type of error this is, describe how it is detected, and correct it.
 
-## Instructions
+## Your Tasks

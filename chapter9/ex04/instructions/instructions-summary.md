@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Modify the temperature conversion program in the file **temperatureconverterwithkey.py** so that it responds to the user’s press of the return or enter key. If the user presses this key when the insertion point is in a given field, the action that uses that field for input is triggered. (LO: 9.2, 9.3, 9.4, 9.5, 9.6)
 
@@ -19,4 +19,4 @@ Modify the temperature conversion program in the file **temperatureconverterwith
     <img src="../assets/chapter9ex04-1.png" width="49%" alt="Example of the temperature converter with the return key">
 </p>
 
-## Instructions
+## Your Tasks

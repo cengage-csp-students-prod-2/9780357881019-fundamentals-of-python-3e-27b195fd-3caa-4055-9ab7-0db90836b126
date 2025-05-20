@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Make the following modifications to the original sentence-generator program in the file **generator.py**:
 
@@ -7,7 +7,7 @@ Make the following modifications to the original sentence-generator program in t
 3. An adjective is optional: The girl kicked the red ball with a sore foot.
    You should add new variables for the sets of adjectives and conjunctions. (LO: 5.1, 5.2)
 
-## Instructions
+## Your Tasks
 
 <!--
 {

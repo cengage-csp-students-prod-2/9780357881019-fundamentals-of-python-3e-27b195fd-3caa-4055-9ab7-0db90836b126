@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 The greatest common divisor of two positive integers, A and B, is the largest number that can be evenly divided into both of them. Euclid’s algorithm can be used to find the greatest common divisor (GCD) of two positive integers. You can implement this algorithm in the following manner:
 
@@ -9,4 +9,4 @@ The greatest common divisor of two positive integers, A and B, is the largest nu
 
 Write a program in the file **gcd.py** that lets the user enter two integers and then prints each step in the process of using the Euclidean algorithm to find their GCD. (LO: 3.4)
 
-## Instructions
+## Your Tasks

@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 The credit plan at TidBit Computer Store specifies a 10% down payment and an annual interest rate of 12%. Monthly payments are 5% of the listed purchase price.
 
@@ -13,4 +13,4 @@ Write a program in the file **tidbit.py** that takes the purchase price as input
 
 The amount of interest for a month is equal to balance \* rate / 12. The amount of principal for a month is equal to the monthly payment minus the interest owed. (LO: 3.2, 3.3, 3.4)
 
-## Instructions
+## Your Tasks

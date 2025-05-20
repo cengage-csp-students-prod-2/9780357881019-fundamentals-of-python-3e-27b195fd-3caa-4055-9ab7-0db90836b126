@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 A standard science experiment is to drop a ball and see how high it bounces. Once the “bounciness” of the ball has been determined, the ratio gives a bounciness index.
 
@@ -6,4 +6,4 @@ For example, if a ball dropped from a height of 10 feet bounces 6 feet high, the
 
 Write a program in the file **bouncy.py** that lets the user enter the initial height from which the ball is dropped, the bounciness index of the ball, and the number of times it is allowed to continue bouncing. Output should be the total distance traveled by the ball. (LO: 3.1)
 
-## Instructions
+## Your Tasks

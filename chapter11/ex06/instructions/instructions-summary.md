@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 The columns labeled FG, 3PT, and FT of the data set in the _Analyzing Basketball Statistics_ case study do not show a single integer value but instead show values with the format <makes-attempts>, which is not suitable for the kind of data analysis performed on the other columns. For example, analysts might like to view the mean of free throws attempted as well as mean of the free throw percentage. You can correct this problem with a cleaning step that, for each such column:
 
@@ -21,4 +21,4 @@ After calling the `cleanStats` function, the frame would look like:
 </center>
 
 
-## Instructions
+## Your Tasks

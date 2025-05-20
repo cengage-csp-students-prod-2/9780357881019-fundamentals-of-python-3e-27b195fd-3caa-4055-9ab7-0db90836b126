@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Darkening an image requires adjusting its pixels toward black as a limit, whereas lightening an image requires adjusting them toward white as a limit. Because black is RGB (0, 0, 0) and white is RGB (255, 255, 255), adjusting the three RGB values of each pixel by the same amount in either direction will have the desired effect. Of course, the algorithms must avoid exceeding either limit during the adjustments. (LO: 8.2)
 
@@ -18,4 +18,4 @@ Develop three algorithms for lightening, darkening, and color filtering as three
 >>> colorFilter(image3, (255, 0, 0)) # Converts to red
 ```
 
-## Instructions
+## Your Tasks

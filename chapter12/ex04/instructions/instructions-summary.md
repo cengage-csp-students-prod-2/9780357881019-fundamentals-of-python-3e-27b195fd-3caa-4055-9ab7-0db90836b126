@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Modify the doctor application discussed in this chapter so that it tracks clients by name and history. A `Doctor` object has its own history list of a patient’s inputs for
 generating replies that refer to earlier conversations, as discussed in Chapter 5.
@@ -19,4 +19,4 @@ Otherwise, the patient is visiting the doctor for the first time, so the client 
 
 > The client code will now be able to establish a connection to the server.
 
-## Instructions
+## Your Tasks

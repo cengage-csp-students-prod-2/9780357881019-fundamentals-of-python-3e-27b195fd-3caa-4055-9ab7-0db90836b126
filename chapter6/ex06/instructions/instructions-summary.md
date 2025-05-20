@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 ### Objective
 Your goal is to create and thoroughly test a Python function named `myRange`. This function is to be defined in a file titled **testmyrange.py**. The purpose of `myRange` is to mimic the functionality of Python's built-in `range` function, but with a notable exception: instead of producing a range object, `myRange` will generate and return a list of integers. This exercise is designed to deepen your understanding of function parameters, control flow, and list operations in Python. **It is crucial that you do not use the built-in `range` function in your solution.**
@@ -36,4 +36,4 @@ After defining the `myRange` function, you are expected to rigorously test its f
 Use these tests to verify that your function handles different scenarios correctly. Remember, thorough testing is key to ensuring the reliability of your implementation.
 
 
-## Instructions
+## Your Tasks

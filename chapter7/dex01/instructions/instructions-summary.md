@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Jill points out to Jack that English grammar allows a noun to be modified by zero or more adjectives. Examples are “The girl hit the ball,” “The girl hit the red ball,” and “The girl hit the little red ball.” She asks Jack to design and implement a function to generate noun phrases based on the following grammar rules:
 
@@ -24,4 +24,4 @@ def adjectivePhrase():
 
 When Jack tests the `nounPhrase` function, the PVM halts the program with a `RecursionError`. Determine why this error occurs and correct it.
 
-## Instructions
+## Your Tasks

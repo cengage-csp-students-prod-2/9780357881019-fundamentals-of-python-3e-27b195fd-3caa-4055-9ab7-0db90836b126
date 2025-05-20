@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Jack is testing the Student class developed earlier in this chapter. He creates an instance of this class with 0 scores and receives an error message when he attempts to view the average score:
 
@@ -18,4 +18,4 @@ ZeroDivisionError: division by zero
 
 Explain the error detected during this test and prevent it from happening.
 
-## Instructions
+## Your Tasks

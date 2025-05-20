@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Consider the following interaction at the Python shell:
 
@@ -13,4 +13,4 @@ The sum of the two integers is 2344
 
 The expected output is 67, but the output of this computation is 2344. Determine what causes this error and fix it.
 
-## Instructions
+## Your Tasks

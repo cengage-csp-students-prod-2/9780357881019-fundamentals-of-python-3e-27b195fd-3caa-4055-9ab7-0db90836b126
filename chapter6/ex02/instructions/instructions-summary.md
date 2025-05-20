@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Restructure Newton’s method (_Case Study 3-2_) by decomposing it into three cooperating functions (including the original `newton` method.). The task of testing for the limit is assigned to a function named `limitReached`, whereas the task of computing a new approximation is assigned to a function named `improveEstimate`. Each function, in the file named **newton.py**, expects the relevant arguments and returns an appropriate value. (LO: 6.2)
 
@@ -18,4 +18,4 @@ Required methods to implement for this exercise:
 }
 -->
 
-## Instructions
+## Your Tasks

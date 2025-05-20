@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Write a program in a file named **histogram.py** that displays the histogram depicted in Figure 11-7. (LO: 11.2)
 
@@ -10,4 +10,4 @@ Write a program in a file named **histogram.py** that displays the histogram dep
 </p>
 <sup>Figure 11-7. Histogram</sup>
 
-## Instructions
+## Your Tasks

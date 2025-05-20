@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Jill is developing a client/server program. Her server script launches without a problem, but she receives the following error message when she launches the client’s script:
 
@@ -39,4 +39,4 @@ server.connect(ADDRESS) # Connect it to a host
 
 Determine why the error occurs in Jill’s program and correct it.
 
-## Instructions
+## Your Tasks

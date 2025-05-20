@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 An alternative strategy for the expo function uses the following recursive definition:
 
@@ -21,4 +21,4 @@ Define a recursive function `expo` (in the file **expo.py**) that uses this stra
 }
 -->
 
-## Instructions
+## Your Tasks

@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Jack is responsible for designing and laying out a GUI for the game of chess. A chessboard is an 8 by 8 grid of squares of alternating colors, where no two adjacent squares have the same color. A prototype of the desired interface is shown first in **Figure 9-23**, along with the result of Jack’s design effort thus far after.
 
@@ -44,4 +44,4 @@ if __name__ == "__main__":
 
 Determine why this error occurs and correct it. Jack reminds Jill that the GIF format supports at most 256 unique colors.
 
-## Instructions
+## Your Tasks

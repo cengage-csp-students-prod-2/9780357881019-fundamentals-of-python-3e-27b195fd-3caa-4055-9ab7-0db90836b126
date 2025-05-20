@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Modify the grammar checker of this chapter’s Case Study, in the file **recognizer.py**, so that it recognizes the following additional types of variations in phrases:
 
@@ -8,4 +8,4 @@ Modify the grammar checker of this chapter’s Case Study, in the file **recogni
 
 You should add new variables for the sets of adjectives and conjunctions. (LO: 6.2)
 
-## Instructions
+## Your Tasks

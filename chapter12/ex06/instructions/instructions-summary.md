@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Convert the ATM application presented in _Chapter 9, Exercise 4_ (**atm.py**) to a networked application.
 
@@ -38,4 +38,4 @@ Do not be concerned about synchronization problems in this project.
 }
 -->
 
-## Instructions
+## Your Tasks

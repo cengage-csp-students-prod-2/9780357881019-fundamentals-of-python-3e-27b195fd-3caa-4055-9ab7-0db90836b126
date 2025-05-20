@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Modify the code in the day/time server application (in **timeserver.py**) so that the user on the server side can shut the server down. That user should be able to press the return or enter key at the terminal to do this. After the enter key is pressed, the message **Server shutting down.** should be printed to the terminal and the server should shut down.
 
@@ -33,4 +33,4 @@ The `main` method running on the server is used to interface with the server and
 }
 -->
 
-## Instructions
+## Your Tasks

@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 This exercise assumes that you have completed _Programming Exercise 6_. Add radio buttons for the remaining columns of data to the program window of the _Analyzing Basketball Statistics_ case study. (LO: 11.3)
 
@@ -18,4 +18,4 @@ This exercise assumes that you have completed _Programming Exercise 6_. Add radi
 
 </p>
 
-## Instructions
+## Your Tasks

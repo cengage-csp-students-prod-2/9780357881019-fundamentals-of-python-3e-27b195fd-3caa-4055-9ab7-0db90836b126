@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Sometimes servers are down, so clients cannot connect to them. Python raises an exception of type `ConnectionRefusedError` in a client program when a network connection is refused.
 

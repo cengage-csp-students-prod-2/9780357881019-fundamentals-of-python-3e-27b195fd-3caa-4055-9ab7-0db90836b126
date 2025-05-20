@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Add synchronization to the ATM program of _Programming Exercise 6_. You will need to give concurrent readers access to a single account, as long as a writer is not writing to it, and give a single writer access, as long as other writers and readers are not accessing the account.
 
@@ -24,4 +24,4 @@ Hint: Complete the `ThreadSafeSavingsAccount` class (in the file **threadsafesav
 }
 -->
 
-## Instructions
+## Your Tasks

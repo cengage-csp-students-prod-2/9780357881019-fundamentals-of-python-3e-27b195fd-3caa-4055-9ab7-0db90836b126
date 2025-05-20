@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Computer card games are more fun if you can see the images of the cards in a window, as shown in the screen shot in Figure 10-8.
 
@@ -24,4 +24,4 @@ This will be the card’s image if its `faceup` variable is `False`. Using the `
 }
 -->
 
-## Instructions
+## Your Tasks

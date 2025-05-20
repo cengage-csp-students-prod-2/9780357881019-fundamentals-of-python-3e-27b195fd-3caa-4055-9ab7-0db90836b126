@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 A crude multi-client chat room allows two or more users to converse by sending and receiving messages. On the client side (in the file **chatclient.py**), a user connects to the chat room as in the ATM application, by clicking a **Connect** button.
 
@@ -24,4 +24,4 @@ The `SharedCell` class includes the usual `read` and `write` methods for a reade
 
 > The client code will now be able to establish a connection to the server.
 
-## Instructions
+## Your Tasks

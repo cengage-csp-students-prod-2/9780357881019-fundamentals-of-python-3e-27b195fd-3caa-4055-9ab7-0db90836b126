@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 Jill has written a program that computes the sales tax on the purchase of an item, given the price of the item (a floating-point number) and the percent tax rate (an integer). The output of the program is the purchase price, the tax, and the total amount to be paid. Here is her code:
 
@@ -24,4 +24,4 @@ Total owed: 33.0
 
 Determine what causes this error and fix it.
 
-## Instructions
+## Your Tasks

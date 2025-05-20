@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 This project assumes that you have completed Project 1. Place several `Student` objects into a list and `shuffle` it. Then run the `sort` method with this list and display all of the students’ information. Print to the console the unsorted list first of all students followed by the sorted list of all students
 
@@ -32,4 +32,4 @@ Scores: 0 0 0 0 0 0 0 0 0 0
 }
 -->
 
-## Instructions
+## Your Tasks

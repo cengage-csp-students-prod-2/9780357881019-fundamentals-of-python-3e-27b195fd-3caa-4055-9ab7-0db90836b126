@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 The ATM program allows a user an indefinite number of attempts to log in. Fix the program so that it displays a popup message that the police will be called after a user has had three successive failures. The program should also disable the login button when this happens.
 
@@ -10,4 +10,4 @@ An example of the program is shown below:
 
 <sup>_ATM GUI_</sup>
 
-## Instructions
+## Your Tasks

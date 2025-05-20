@@ -1,6 +1,6 @@
 <!-- manual -->
 
-## Your Tasks
+## Instructions
 
 Jack has been working on the shared cell classes for the producer-consumer problem and the readers and writers problem, and he notices some serious redundancy in the code. The `read` and `write` methods are the same in both classes, and both classes include an instance variable for the data.
 
@@ -25,4 +25,4 @@ Counter value is 3
 Consumer is done consuming
 ```
 
-## Instructions
+## Your Tasks
