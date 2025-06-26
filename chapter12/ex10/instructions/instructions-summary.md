@@ -24,4 +24,8 @@ The `SharedCell` class includes the usual `read` and `write` methods for a reade
 
 > The client code will now be able to establish a connection to the server.
 
+An example of the program is shown below:
+
+<img src="../assets/chapter12ex10-1.png" alt='Retro-style window titled "Chat Room" with a blue title bar and classic minimize, maximize, and close buttons in the top-right corner. The interface is divided into three sections. At the top is the label "Transcript of the chat:" followed by a large, empty, scrollable text area intended to display the chat log. Below is the label "Want to connect?" followed by a second empty, scrollable text area, likely for user input. At the bottom are two buttons: "Send" on the left, which is grayed out and disabled, and "Connect" on the right, which is active and clickable. The layout mimics an old Windows OS application.'>
+
 ## Your Tasks

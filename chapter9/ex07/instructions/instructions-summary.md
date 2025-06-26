@@ -21,7 +21,8 @@ The TidBit Computer Store (_Chapter 3, Programming Exercise 10_) has a credit pl
 }
 -->
 
-## Example of the program:
+An example of the program is shown below:
+
 <p align="center">
     <img src="../assets/chapter9ex07-1.png" width="49%" alt="Example of the output of the program">
 </p>

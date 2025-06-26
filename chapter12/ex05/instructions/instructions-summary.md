@@ -16,4 +16,8 @@ Unlike the doctor program, there should be just one phone book that all clients 
 
 > The client code will now be able to establish a connection to the server.
 
+An example of the program is shown below:
+
+<img src="../assets/chapter12ex05-1.png" alt='A retro-style Windows-OS dialog box titled "Phone Book" with a light blue background. The interface displays the prompt "Want to connect?" centered near the top. Below the prompt are three horizontally aligned buttons. From left to right: the "Find" button is grayed out and disabled, the "Add" button is also grayed out and disabled, and the "Connect" button is enabled and clickable. The window frame includes the standard minimize, maximize, and close buttons in the top right corner.'>
+
 ## Your Tasks

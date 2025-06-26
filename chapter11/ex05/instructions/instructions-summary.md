@@ -4,11 +4,12 @@
 
 Visit the website of the U.S. Bureau of Labor Statistics at https://www.bls.gov/data/home.htm and download the data for the average price of bread, as shown earlier in this chapter (there will be data for more recent years added since these words were written). Write a program in a file named **breadprice.py** that loads the data set and cleans it as you did earlier in this chapter. Then include code to display a line plot of the average price for each year in the table. (LO: 11.1, 11.2, 11.3)
 
+An example of the program is shown below:
+
 <p align="center">
     <img src="../assets/chapter11ex05-1.png" width="49%" alt="Line graph of average price of bread by year">
 </p>
 
-## Sample Terminal Output
 ```
     Year    Jan    Feb    Mar    Apr    May    Jun    Jul    Aug    Sep    Oct    Nov    Dec
 0   2012  1.423  1.442  1.395  1.426  1.412  1.403  1.427  1.407  1.401  1.422  1.418  1.436
@@ -35,4 +36,5 @@ Visit the website of the U.S. Bureau of Labor Statistics at https://www.bls.gov/
 9   1.546  1.537  1.526  1.510  1.511  1.510  1.491  1.467000  1.580000  1.526000  1.547000  1.532000
 10  1.555  1.578  1.607  1.612  1.606  1.691  1.715  1.623429  1.623429  1.623429  1.623429  1.623429
 ```
+
 ## Your Tasks

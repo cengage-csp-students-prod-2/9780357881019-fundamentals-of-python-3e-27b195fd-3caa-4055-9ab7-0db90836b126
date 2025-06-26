@@ -14,7 +14,8 @@ Modify the temperature conversion program in the file **temperatureconverterwith
 }
 -->
 
-## Example of the program:
+An example of the program is shown below:
+
 <p align="center">
     <img src="../assets/chapter9ex04-1.png" width="49%" alt="Example of the temperature converter with the return key">
 </p>

@@ -31,11 +31,15 @@ Do not be concerned about synchronization problems in this project.
 <!--
 {
     "CopyExercise": {
-        "name": "",
-        "copyTarget": "/chapter5/ex03/student/",
+        "name": "Chapter 9, Exercise 04",
+        "copyTarget": "/chapter9/ex04/student/",
         "pasteTarget": "/"
     }
 }
 -->
+
+An example of the program is shown below:
+<img src="../assets/chapter12ex06-1.png" alt='Retro-styled window titled "ATM" with a blue title bar and minimize, maximize, and close buttons. The interface contains four labeled fields: "Name" with an empty input box, "Pin" with an empty input box, "Amount" with the value 0.0, and "Status" displaying "Welcome to the bank!". To the right are four buttons: "Balance", "Deposit", and "Withdraw" are disabled; "Login" is enabled. The design resembles a classic Windows OS application.
+'>
 
 ## Your Tasks

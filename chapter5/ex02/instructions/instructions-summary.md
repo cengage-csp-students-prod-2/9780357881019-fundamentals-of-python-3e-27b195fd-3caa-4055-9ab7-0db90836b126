@@ -4,6 +4,18 @@ Write a program in the file **navigate.py** that allows the user to navigate the
 
 You can use either the **navigate.py** file or create a new file in this environment to test your program's functionality.
 
-> Note: The tests for this exercise use external text files. As a result, the test feedback might reference text that is referenced in this lab. Double check when running your program that it displays the correct line when prompted.
+> Note: The tests for this exercise use external text files. As a result, the test feedback might reference text that is not referenced in this lab. Double check when running your program that it displays the correct line when prompted.
+
+An example of the program is shown below:
+
+```
+Enter the input file name: text.txt
+The file has 5 lines.
+Enter a line number [0 to quit]: 2
+2 :  Bob
+
+The file has 5 lines.
+Enter a line number [0 to quit]: 0
+```
 
 ## Your Tasks

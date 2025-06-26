@@ -17,11 +17,16 @@ Hint: Complete the `ThreadSafeSavingsAccount` class (in the file **threadsafesav
 <!--
 {
     "CopyExercise": {
-        "name": "Chapter 11,",
-        "copyTarget": "/chapter11/ex06/student/*",
+        "name": "Chapter 12, Exercise 06",
+        "copyTarget": "/chapter12/ex06/student/*",
         "pasteTarget": "/"
     }
 }
 -->
+
+An example of the program is shown below:
+
+<img src="../assets/chapter12ex08-1.png" alt='Retro-styled window titled "ATM" with a blue title bar and minimize, maximize, and close buttons. The interface contains four labeled fields: "Name" with an empty input box, "Pin" with an empty input box, "Amount" with the value 0.0, and "Status" displaying "Welcome to the bank!". To the right are four buttons: "Balance", "Deposit", and "Withdraw" are disabled; "Login" is enabled. The design resembles a classic Windows OS application.
+'>
 
 ## Your Tasks

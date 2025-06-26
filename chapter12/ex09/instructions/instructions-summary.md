@@ -9,7 +9,7 @@ Jill, his team manager, advises him to place this redundant code in a parent cla
 Also, the `__init__` method in each subclass first calls the `__init__` method in the `SharedCell` class
 to set up the data, and then adds the condition(s) and other instance variables for its specific situation. Jack has called in sick, so you must complete this hierarchy of classes and redo the demo programs (in the files **producerconsumer.py** and **readersandwriters.py**) so that they use them. (LO: 12.1, 12.2)
 
-Note: The program should output in the following format:
+An example of the program is shown below:
 
 ```
 Enter the number of accesses: 3

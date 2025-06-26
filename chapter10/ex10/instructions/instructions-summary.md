@@ -14,4 +14,11 @@ Set the starting position (x-axis, y-axis) of the main window to **(0,0)** by us
 
 > Make sure to use the **turtle.done()** function as the last statement in your turtle graphics program.
 
+An example of the program is shown below:
+
+<p align="center">
+    <img src="../assets/10.10.png" width="60%" alt="A Python Turtle Graphics window displaying a simple drawing on a white background. On the left, a black rectangle represents a house with a red angled roof and a small blue rectangle as a door. On the right, a black stick figure is drawn with a circle for a head, a vertical line for the body, horizontal line for arms, and two diagonal lines for legs.
+">
+</p>
+
 ## Your Tasks

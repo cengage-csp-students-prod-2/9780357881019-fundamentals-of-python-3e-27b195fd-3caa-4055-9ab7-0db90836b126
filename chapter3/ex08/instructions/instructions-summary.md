@@ -9,4 +9,13 @@ The greatest common divisor of two positive integers, A and B, is the largest nu
 
 Write a program in the file **gcd.py** that lets the user enter two integers and then prints each step in the process of using the Euclidean algorithm to find their GCD. (LO: 3.4)
 
+An example of the program is shown below:
+
+```txt
+Enter the smaller number: 5
+Enter the larger number: 15
+
+The greatest common divisor is 5
+```
+
 ## Your Tasks

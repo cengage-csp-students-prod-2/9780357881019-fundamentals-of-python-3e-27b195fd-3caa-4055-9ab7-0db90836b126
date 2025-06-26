@@ -8,4 +8,12 @@ The program should expect three input arguments (in order):
 2. Output File
 3. Step Distance
 
+An example of the program is shown below:
+
+```
+Enter the input file name: encrypt.py
+Enter the output file name: decrypt.py
+Enter the distance value: 1
+```
+
 ## Your Tasks

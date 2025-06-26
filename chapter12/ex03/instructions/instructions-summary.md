@@ -26,11 +26,27 @@ The `main` method running on the server is used to interface with the server and
 <!--
 {
     "CopyExercise": {
-        "name": "timeserver.py",
+        "name": "Chapter 12, Exercise 02",
         "copyTarget": "/chapter12/ex02/student/*",
         "pasteTarget": "/*"
     }
 }
 -->
+
+An example of the program is shown below:
+
+```
+$ python3 timeserver.py
+Press enter to shut the server down.
+Waiting for connection . . .
+... connected from: ('127.0.0.1', 49776)
+Waiting for connection . . .
+
+
+
+$ python3 timeclient.py
+Thu Apr  3 13:21:17 2025
+Have a nice day!
+```
 
 ## Your Tasks

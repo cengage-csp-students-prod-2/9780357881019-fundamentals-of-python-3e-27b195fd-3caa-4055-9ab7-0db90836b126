@@ -4,6 +4,10 @@
 
 This exercise assumes that you have completed _Programming Exercise 1_. Complete the implementation of the `StudentView` class from the _Analyzing Student Test Scores_ case study. (LO: 11.1)
 
+An example of the program is shown below:
+
+<img src="../assets/chapter11ex02-1.png" alt="Student App GUI interface">
+
 <!--
 {
     "CopyExercise": {
@@ -13,7 +17,5 @@ This exercise assumes that you have completed _Programming Exercise 1_. Complete
     }
 }
 -->
-## Sample GUI interface design
-<img src="../assets/chapter11ex02-1.png" alt="Student App GUI interface">
 
 ## Your Tasks

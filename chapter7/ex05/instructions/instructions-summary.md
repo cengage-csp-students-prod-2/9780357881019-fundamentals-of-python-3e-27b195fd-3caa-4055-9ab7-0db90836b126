@@ -13,4 +13,6 @@ def printAll(seq):
 
 Write a script (in the file **testprintlist.py**) that tests this function and add code to trace the argument on each call. Does this function work as expected? If so, how does it works, and describe any hidden costs in running it. (LO: 7.1)
 
+<!--There is no helpful example output for this exercise-->
+
 ## Your Tasks

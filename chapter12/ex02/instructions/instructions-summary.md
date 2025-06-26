@@ -17,3 +17,16 @@ Add exception handling code to the server logic in **stimeclient.py** to catch a
 > The client code will now be able to establish a connection to the server.
 
 In order to test your error handling logic, run `python3 timeclient.py` into the terminal without starting the timesever. If you have already started the timeserver, use `CTL+C` to terminate the process or close the terminal window which is running the timeserver.
+
+An example of the program is shown below:
+
+```
+$ python3 timeserver.py
+Waiting for connection . . .
+... connected from:  ('127.0.0.1', 34128)
+Waiting for connection . . .
+
+$ python3 timeclient.py
+Thu Apr  3 13:15:09 2025
+Have a nice day!
+```
