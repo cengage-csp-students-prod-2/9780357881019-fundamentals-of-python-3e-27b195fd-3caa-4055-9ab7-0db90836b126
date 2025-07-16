@@ -10,20 +10,24 @@
         "cengage.cengage-companion",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "ms-vsliveshare.vsliveshare"
+        "ms-python.black-formatter",
+        "ms-vsliveshare.vsliveshare",
+        "ms-python.pylint"
       ],
       "settings": {
-        "settingsSync.enable": false,
         "extensions.ignoreRecommendations": true,
         "git.openRepositoryInParentFolders": "never",
         "workbench.colorTheme": "Default Dark Modern",
-        "workbench.view.testing.visible": false,
         "python.languageServer": "Pylance",
-        "python.linting.enabled": true,
-        "python.linting.pylintEnabled": true,
-        "python.formatting.provider": "black",
-        "editor.formatOnSave": true,
-        "python.analysis.typeCheckingMode": "basic"
+        "python.analysis.typeCheckingMode": "standard",
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "pylint.enabled": false, 
+        "pylint.args": [
+        	"--disable=C0103",
+    		  "--disable=C0116",
+    		  "--disable=C0304"
+  	    ]
       }
     }
   },
@@ -40,5 +44,5 @@
       "label": "desktop"
     }
   },
-  "postCreateCommand": "pip install matplotlib pandas pylint"
+  "postCreateCommand": "pip install matplotlib pandas pylint black"
 }
